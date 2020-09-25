@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Coal Chunks -->
+
+  <MedTimes_Resource_Coal.label>Coal Chunks</MedTimes_Resource_Coal.label>
+  <MedTimes_Resource_Coal.description>An extremely brittle rock. worthless in construction, however, it's highly flamable nature makes it great fuel for fire.
+	
+	(Special thanks and credit to "Flesh Forge" for idea's and implementation surrounding Coal concepts.)</MedTimes_Resource_Coal.description>
+  <MedTimes_Resource_Coal.stuffProps.stuffAdjective>Coal</MedTimes_Resource_Coal.stuffProps.stuffAdjective>
+
+
+</LanguageData>

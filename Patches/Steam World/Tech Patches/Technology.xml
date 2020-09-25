@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- ========== Tier I Patches ========== -->
+  <!-- ========== Tier II Patches ========== -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ResearchProjectDef[defName = "WakeUpProduction"]/prerequisites/li</xpath>
+    <value>
+      <li>MicroelectronicsBasics</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ResearchProjectDef[defName = "GoJuiceProduction"]/prerequisites/li</xpath>
+    <value>
+      <li>MicroelectronicsBasics</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ResearchProjectDef[defName = "PenoxycylineProduction"]/prerequisites/li</xpath>
+    <value>
+      <li>MicroelectronicsBasics</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ResearchProjectDef[defName = "NutrientPaste"]/prerequisites/li</xpath>
+    <value>
+      <li>MicroelectronicsBasics</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ResearchProjectDef[defName = "SolarPanels"]/prerequisites/li</xpath>
+    <value>
+      <li>MicroelectronicsBasics</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ResearchProjectDef[defName = "AirConditioning"]/prerequisites/li</xpath>
+    <value>
+      <li>MicroelectronicsBasics</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ResearchProjectDef[defName = "Autodoors"]/prerequisites/li</xpath>
+    <value>
+      <li>MicroelectronicsBasics</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ResearchProjectDef[defName = "Hydroponics"]/prerequisites/li</xpath>
+    <value>
+      <li>MicroelectronicsBasics</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ResearchProjectDef[defName = "IEDs"]/prerequisites/li</xpath>
+    <value>
+      <li>MicroelectronicsBasics</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ResearchProjectDef[defName = "Mortars"]/prerequisites/li</xpath>
+    <value>
+      <li>MicroelectronicsBasics</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ResearchProjectDef[defName = "BlowbackOperation"]/prerequisites/li</xpath>
+    <value>
+      <li>MicroelectronicsBasics</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ResearchProjectDef[defName = "PrecisionRifling"]/prerequisites/li</xpath>
+    <value>
+      <li>MicroelectronicsBasics</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ResearchProjectDef[defName = "SmokepopBelt"]/prerequisites/li</xpath>
+    <value>
+      <li>MicroelectronicsBasics</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ResearchProjectDef[defName = "MicroelectronicsBasics"]/prerequisites/li</xpath>
+    <value>
+      <li>MicroelectronicsBasics</li>
+    </value>
+  </Operation>
+  <!-- ========== Tier III Patches ========== -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ResearchProjectDef[defName = "HospitalBed"]/prerequisites/li</xpath>
+    <value>
+      <li>MedicineProduction</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationRemove">
+    <xpath>/Defs/ResearchProjectDef[defName = "HospitalBed"]/requiredResearchBuilding</xpath>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ResearchProjectDef[defName = "MedicineProduction"]/prerequisites/li[2]</xpath>
+    <value>
+      <li>Electricity</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationRemove">
+    <xpath>/Defs/ResearchProjectDef[defName = "MedicineProduction"]/requiredResearchBuilding</xpath>
+  </Operation>
+  <!-- ========== Tier IV Patches ========== -->
+  <!-- ========== Classic Start Removal ========== -->
+  <Operation Class="PatchOperationRemove">
+    <xpath>/Defs/ResearchProjectDef[defName = "Electricity"]/tags</xpath>
+  </Operation>
+  <Operation Class="PatchOperationRemove">
+    <xpath>/Defs/ResearchProjectDef[defName = "NutrientPaste"]/tags</xpath>
+  </Operation>
+  <Operation Class="PatchOperationRemove">
+    <xpath>/Defs/ResearchProjectDef[defName = "AirConditioning"]/tags</xpath>
+  </Operation>
+</Patch>

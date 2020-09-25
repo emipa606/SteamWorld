@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Coal to Chemfuel -->
+
+  <MedTimes_MakeChemfuelCoal.label>make chemfuel from coal</MedTimes_MakeChemfuelCoal.label>
+  <MedTimes_MakeChemfuelCoal.description>Make a batch of chemfuel using coal by hydrogenation.</MedTimes_MakeChemfuelCoal.description>
+  <MedTimes_MakeChemfuelCoal.jobString>Refining chemfuel from coal.</MedTimes_MakeChemfuelCoal.jobString>
+
+
+  <!-- Wood to Coal -->
+
+  <MedTimes_MakeCoalFromWood.label>make coal chunks from wood</MedTimes_MakeCoalFromWood.label>
+  <MedTimes_MakeCoalFromWood.description>Make a batch of coal chunks by burning wood.</MedTimes_MakeCoalFromWood.description>
+  <MedTimes_MakeCoalFromWood.jobString>Refining coal from wood.</MedTimes_MakeCoalFromWood.jobString>
+
+
+  <!-- Coal Chunks -->
+
+  <MedTimes_MakeStoneChunks_Coal.label>Gather Coal Chunks</MedTimes_MakeStoneChunks_Coal.label>
+  <MedTimes_MakeStoneChunks_Coal.description>(Bulk x25) Mine from underground Coal Seams to create usable Coal Chunks.</MedTimes_MakeStoneChunks_Coal.description>
+  <MedTimes_MakeStoneChunks_Coal.jobString>Mining for Coal Chunks.</MedTimes_MakeStoneChunks_Coal.jobString>
+
+
+  <!-- Stone Chunks: Sandstone -->
+
+  <MedTimes_MakeStoneChunks_Sandstone.label>Gather Sandstone Chunks</MedTimes_MakeStoneChunks_Sandstone.label>
+  <MedTimes_MakeStoneChunks_Sandstone.description>Cuts rock chunks into usable stone blocks.</MedTimes_MakeStoneChunks_Sandstone.description>
+  <MedTimes_MakeStoneChunks_Sandstone.jobString>Mining for Sandstone Chunk.</MedTimes_MakeStoneChunks_Sandstone.jobString>
+
+
+  <!-- Stone Chunks: Granite -->
+
+  <MedTimes_MakeStoneChunks_Granite.label>Gather Granite Chunks</MedTimes_MakeStoneChunks_Granite.label>
+  <MedTimes_MakeStoneChunks_Granite.description>Cuts rock chunks into usable stone blocks.</MedTimes_MakeStoneChunks_Granite.description>
+  <MedTimes_MakeStoneChunks_Granite.jobString>Mining for Granite Chunk.</MedTimes_MakeStoneChunks_Granite.jobString>
+
+
+  <!-- Stone Chunks: Limestone -->
+
+  <MedTimes_MakeStoneChunks_Limestone.label>Gather Limestone Chunks</MedTimes_MakeStoneChunks_Limestone.label>
+  <MedTimes_MakeStoneChunks_Limestone.description>Cuts rock chunks into usable stone blocks.</MedTimes_MakeStoneChunks_Limestone.description>
+  <MedTimes_MakeStoneChunks_Limestone.jobString>Mining for Limestone Chunk.</MedTimes_MakeStoneChunks_Limestone.jobString>
+
+
+  <!-- Stone Chunks: Slate -->
+
+  <MedTimes_MakeStoneChunks_Slate.label>Gather Slate Chunks</MedTimes_MakeStoneChunks_Slate.label>
+  <MedTimes_MakeStoneChunks_Slate.description>Cuts rock chunks into usable stone blocks.</MedTimes_MakeStoneChunks_Slate.description>
+  <MedTimes_MakeStoneChunks_Slate.jobString>Mining for Slate Chunk.</MedTimes_MakeStoneChunks_Slate.jobString>
+
+
+  <!-- Stone Chunks: Marble -->
+
+  <MedTimes_MakeStoneChunks_Marble.label>Gather Marble Chunks</MedTimes_MakeStoneChunks_Marble.label>
+  <MedTimes_MakeStoneChunks_Marble.description>Cuts rock chunks into usable stone blocks.</MedTimes_MakeStoneChunks_Marble.description>
+  <MedTimes_MakeStoneChunks_Marble.jobString>Mining for Marble Chunk.</MedTimes_MakeStoneChunks_Marble.jobString>
+
+
+</LanguageData>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Stone Quarry -->
+
+  <MedTimes_DoBillsQuarry.label>Cut Stone</MedTimes_DoBillsQuarry.label>
+  <MedTimes_DoBillsQuarry.verb>Stonecut</MedTimes_DoBillsQuarry.verb>
+  <MedTimes_DoBillsQuarry.gerund>Stonecutting at</MedTimes_DoBillsQuarry.gerund>
+
+
+</LanguageData>

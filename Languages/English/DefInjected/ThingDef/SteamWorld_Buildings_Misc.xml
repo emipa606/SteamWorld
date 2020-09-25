@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Telegraph.label>telegraph station</Telegraph.label>
+  <Telegraph.description>The telegraph station allows communcication with remote traders as well as other factions for trade and diplomacy.</Telegraph.description>
+  <Telegraph_Blueprint.label>telegraph station (blueprint)</Telegraph_Blueprint.label>
+  <Telegraph_Blueprint_Install.label>telegraph station (blueprint)</Telegraph_Blueprint_Install.label>
+  <Telegraph_Frame.label>telegraph station (building)</Telegraph_Frame.label>
+  <Telegraph_Frame.description>The telegraph station allows communcication with remote traders as well as other factions for trade and diplomacy.</Telegraph_Frame.description>
+
+  <WireTransferBeacon.label>wire transfer beacon</WireTransferBeacon.label>
+  <WireTransferBeacon.description>Required for wired monetary transactions via the telegraph station. Can be placed indoors.</WireTransferBeacon.description>
+  <WireTransferBeacon_Blueprint.label>wire transfer beacon (blueprint)</WireTransferBeacon_Blueprint.label>
+  <WireTransferBeacon_Blueprint_Install.label>wire transfer beacon (blueprint)</WireTransferBeacon_Blueprint_Install.label>
+  <WireTransferBeacon_Frame.label>wire transfer beacon (building)</WireTransferBeacon_Frame.label>
+  <WireTransferBeacon_Frame.description>Required for wired monetary transactions via the telegraph station. Can be placed indoors.</WireTransferBeacon_Frame.description>
+
+
+</LanguageData>

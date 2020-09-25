@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- (Medieval) Stone Quarry -->
+
+  <MedTimes_StoneQuarry.label>Stone Quarry</MedTimes_StoneQuarry.label>
+  <MedTimes_StoneQuarry.description>A Stone Quarry equipped with various tools used for the mining of coal, as well as the production of various types of stone chunks.</MedTimes_StoneQuarry.description>
+  <MedTimes_StoneQuarry_Blueprint.label>Stone Quarry (blueprint)</MedTimes_StoneQuarry_Blueprint.label>
+  <MedTimes_StoneQuarry_Blueprint_Install.label>Stone Quarry (blueprint)</MedTimes_StoneQuarry_Blueprint_Install.label>
+  <MedTimes_StoneQuarry_Frame.label>Stone Quarry (building)</MedTimes_StoneQuarry_Frame.label>
+  <MedTimes_StoneQuarry_Frame.description>A Stone Quarry equipped with various tools used for the mining of coal, as well as the production of various types of stone chunks.</MedTimes_StoneQuarry_Frame.description>
+
+
+  <!-- Coal Generator -->
+
+  <SW_CoalGenerator.label>Steam Engine Dynamo</SW_CoalGenerator.label>
+  <SW_CoalGenerator.description>A large dynamo powered by a steam engine that burns coal to produce power. Has a chance to combust when damaged.</SW_CoalGenerator.description>
+  <SW_CoalGenerator_Blueprint.label>Steam Engine Dynamo (blueprint)</SW_CoalGenerator_Blueprint.label>
+  <SW_CoalGenerator_Blueprint_Install.label>Steam Engine Dynamo (blueprint)</SW_CoalGenerator_Blueprint_Install.label>
+  <SW_CoalGenerator_Frame.label>Steam Engine Dynamo (building)</SW_CoalGenerator_Frame.label>
+  <SW_CoalGenerator_Frame.description>A large dynamo powered by a steam engine that burns coal to produce power. Has a chance to combust when damaged.</SW_CoalGenerator_Frame.description>
+
+
+</LanguageData>
