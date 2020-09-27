@@ -2,88 +2,13 @@
 <Patch>
   <!-- ========== Tier I Patches ========== -->
   <!-- ========== Tier II Patches ========== -->
-  <Operation Class="PatchOperationReplace">
-    <xpath>/Defs/ResearchProjectDef[defName = "WakeUpProduction"]/prerequisites/li</xpath>
-    <value>
-      <li>MicroelectronicsBasics</li>
-    </value>
+  <Operation Class="PatchOperationRemove">
+    <xpath>/Defs/ResearchProjectDef[defName = "WakeUpProduction" or defName = "GoJuiceProduction" or defName = "PenoxycylineProduction" or defName = "NutrientPaste" or defName = "SolarPanels" or defName = "AirConditioning" or defName = "Autodoors" or defName = "Hydroponics" or defName = "IEDs" or defName = "Mortars" or defName = "BlowbackOperation" or defName = "PrecisionRifling" or defName = "SmokepopBelt" or defName = "MicroelectronicsBasics"]/requiredResearchBuilding</xpath>
   </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>/Defs/ResearchProjectDef[defName = "GoJuiceProduction"]/prerequisites/li</xpath>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ResearchProjectDef[defName = "WakeUpProduction" or defName = "GoJuiceProduction" or defName = "PenoxycylineProduction" or defName = "NutrientPaste" or defName = "SolarPanels" or defName = "AirConditioning" or defName = "Autodoors" or defName = "Hydroponics" or defName = "IEDs" or defName = "Mortars" or defName = "BlowbackOperation" or defName = "PrecisionRifling" or defName = "SmokepopBelt" or defName = "MicroelectronicsBasics"]</xpath>
     <value>
-      <li>MicroelectronicsBasics</li>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>/Defs/ResearchProjectDef[defName = "PenoxycylineProduction"]/prerequisites/li</xpath>
-    <value>
-      <li>MicroelectronicsBasics</li>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>/Defs/ResearchProjectDef[defName = "NutrientPaste"]/prerequisites/li</xpath>
-    <value>
-      <li>MicroelectronicsBasics</li>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>/Defs/ResearchProjectDef[defName = "SolarPanels"]/prerequisites/li</xpath>
-    <value>
-      <li>MicroelectronicsBasics</li>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>/Defs/ResearchProjectDef[defName = "AirConditioning"]/prerequisites/li</xpath>
-    <value>
-      <li>MicroelectronicsBasics</li>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>/Defs/ResearchProjectDef[defName = "Autodoors"]/prerequisites/li</xpath>
-    <value>
-      <li>MicroelectronicsBasics</li>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>/Defs/ResearchProjectDef[defName = "Hydroponics"]/prerequisites/li</xpath>
-    <value>
-      <li>MicroelectronicsBasics</li>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>/Defs/ResearchProjectDef[defName = "IEDs"]/prerequisites/li</xpath>
-    <value>
-      <li>MicroelectronicsBasics</li>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>/Defs/ResearchProjectDef[defName = "Mortars"]/prerequisites/li</xpath>
-    <value>
-      <li>MicroelectronicsBasics</li>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>/Defs/ResearchProjectDef[defName = "BlowbackOperation"]/prerequisites/li</xpath>
-    <value>
-      <li>MicroelectronicsBasics</li>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>/Defs/ResearchProjectDef[defName = "PrecisionRifling"]/prerequisites/li</xpath>
-    <value>
-      <li>MicroelectronicsBasics</li>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>/Defs/ResearchProjectDef[defName = "SmokepopBelt"]/prerequisites/li</xpath>
-    <value>
-      <li>MicroelectronicsBasics</li>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>/Defs/ResearchProjectDef[defName = "MicroelectronicsBasics"]/prerequisites/li</xpath>
-    <value>
-      <li>MicroelectronicsBasics</li>
+      <requiredResearchBuilding>FutureResearchBench</requiredResearchBuilding>
     </value>
   </Operation>
   <!-- ========== Tier III Patches ========== -->
