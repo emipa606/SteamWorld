@@ -828,15 +828,18 @@
     <success>Always</success>
     <operations>
       <li Class="PatchOperationRemove">
-        <xpath>*/ThingDef[@Name="12GaugeBase"]/tradeTags</xpath>
+        <xpath>*/ThingDef[defName="Ammo_12Gauge_ElectroSlug"]/tradeTags</xpath>
       </li>
       <li Class="PatchOperationAdd">
-        <xpath>*/ThingDef[@Name="12GaugeBase"]</xpath>
+        <xpath>*/ThingDef[defName="Ammo_12Gauge_ElectroSlug"]</xpath>
         <value>
           <tradeability>None</tradeability>
           <destroyOnDrop>True</destroyOnDrop>
           <menuHidden>True</menuHidden>
         </value>
+      </li>
+      <li Class="PatchOperationRemove">
+        <xpath>*/RecipeDef[defName="MakeAmmo_12Gauge_ElectroSlug"]</xpath>
       </li>
     </operations>
   </Operation>
