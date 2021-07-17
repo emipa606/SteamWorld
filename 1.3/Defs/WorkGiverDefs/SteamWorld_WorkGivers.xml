@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- ============= Art ============= -->
+  <!-- Stone Quarry -->
+  <WorkGiverDef>
+    <defName>MedTimes_DoBillsQuarry</defName>
+    <label>Cut Stone</label>
+    <giverClass>WorkGiver_DoBill</giverClass>
+    <workType>Mining</workType>
+    <priorityInType>30</priorityInType>
+    <fixedBillGiverDefs>
+      <li>MedTimes_StoneQuarry</li>
+    </fixedBillGiverDefs>
+    <verb>Stonecut</verb>
+    <gerund>Stonecutting at</gerund>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+    <prioritizeSustains>true</prioritizeSustains>
+  </WorkGiverDef>
+  <!-- End of WorkGiverDefs -->
+</Defs>

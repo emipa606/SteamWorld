@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- ========================= Resource Base Classes ==========================-->
+  <!-- Resource Base Class -->
+  <ThingDef Name="MedTimes_ResourceBase" Abstract="True">
+    <thingClass>ThingWithComps</thingClass>
+    <category>Item</category>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <useHitPoints>true</useHitPoints>
+    <selectable>true</selectable>
+    <altitudeLayer>Item</altitudeLayer>
+    <stackLimit>75</stackLimit>
+    <comps>
+      <li Class="CompProperties_Forbiddable" />
+    </comps>
+    <alwaysHaulable>true</alwaysHaulable>
+    <drawGUIOverlay>true</drawGUIOverlay>
+    <rotatable>false</rotatable>
+    <pathCost>15</pathCost>
+  </ThingDef>
+  <!--=============== Pure stuffs: Basics ====================-->
+  <!-- Coal Chunks -->
+  <ThingDef ParentName="ResourceBase">
+    <defName>MedTimes_Resource_Coal</defName>
+    <label>Coal Chunks</label>
+    <description>An extremely brittle rock. worthless in construction, however, it's highly flamable nature makes it great fuel for fire.
+	
+	(Special thanks and credit to "Flesh Forge" for idea's and implementation surrounding Coal concepts.)</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Coal/MedTimes_Coal</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(0.8,0.8)</drawSize>
+    </graphicData>
+    <soundInteract>Stone_Drop</soundInteract>
+    <soundDrop>Stone_Drop</soundDrop>
+    <statBases>
+      <MarketValue>2</MarketValue>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Mass>0.5</Mass>
+      <DeteriorationRate>2</DeteriorationRate>
+      <Beauty>-10</Beauty>
+      <Flammability>2.0</Flammability>
+    </statBases>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <stuffProps>
+      <stuffAdjective>Coal</stuffAdjective>
+      <appearance>Bricks</appearance>
+      <categories>
+        <li>MedTimes_Coal</li>
+      </categories>
+      <commonality>0.01</commonality>
+      <color>(30,30,30)</color>
+      <constructEffect>ConstructMetal</constructEffect>
+      <soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
+      <soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
+    </stuffProps>
+  </ThingDef>
+  <!-- ============= End of Document  =================-->
+</Defs>

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
   <name>Steam World (Continued)</name>
   <packageId>Mlie.SteamWorld</packageId>
@@ -6,6 +6,7 @@
   <url>https://github.com/emipa606/SteamWorld</url>
   <supportedVersions>
     <li>1.2</li>
+    <li>1.3</li>
   </supportedVersions>
   <modDependencies>
     <li>
@@ -19,26 +20,29 @@
     <li>CETeam.CombatExtended</li>
     <li>Mlie.RimworldWesternizationProject</li>
   </loadAfter>
-  <description>Update of Tamias mod
+  <description>[img]https://i.imgur.com/WAEzk68.png[/img]
+Update of Tamias mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1394392968
 
-[img]https://i.imgur.com/GYswkZ7.png[/img]
-
-Support-chat:
-https://invite.gg/mlie
-
-Non-steam version:
-https://github.com/emipa606/SteamWorld
-	
 - Some errors can show when accepting quests since the quests mostly uses shuttles
 - Empire faction is also removed
+
+[img]https://i.imgur.com/7Gzt3Rg.png[/img]
+
+[table]
+	[tr]
+		[td][url=https://invite.gg/Mlie][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td]
+		[td][url=https://github.com/emipa606/SteamWorld][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
+	[/tr]
+[/table]
 	
---- Original Description ---
-"Steam Worlds: Similar to Earth in the 19th century. Often this state is short-lived, as societies develop into midworlds, but it can be very stretched out depending on culture and government structure."
+[img]https://i.imgur.com/NOW7jU1.png[/img]
+
+&quot;Steam Worlds: Similar to Earth in the 19th century. Often this state is short-lived, as societies develop into midworlds, but it can be very stretched out depending on culture and government structure.&quot;
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀- Rimworld Fiction Primer
 __________________________________________________________________________
 
-Steam World is a world-limiter mod designed as a companion to the Rimworld Westernization Project that makes the world a 19th century (1800s) setting. These changes are meant to make 19th century game types more immersive, and include (but are not limited to):
+Steam World is a world-limiter mod designed as a companion to the [url=https://steamcommunity.com/workshop/filedetails/?id=1119081000]Rimworld Westernization Project[/url] that makes the world a 19th century (1800s) setting. These changes are meant to make 19th century game types more immersive, and include (but are not limited to):
 
 - Making post-19th century technology unresearchable.
 - Addition of coal as a fuel source for power generation. (Mined from the stone quarry, which requires coal mining research)
@@ -54,40 +58,59 @@ Steam World is a world-limiter mod designed as a companion to the Rimworld Weste
 - Removal of certain advanced items (AI core, glitterworld medicine, ect.)
 - Removal of all advanced body parts (bionic and higher) from vanilla factions and traders.
 
-As stated before, this mod was originally created to serve as a companion mod for the Rimworld Westernization Project (RWP). However, RWP isn't required for this mod to function (but highly recommended), so it is entirely possible to play with just this mod alone. But, because this mod removes so much content, and wasn’t really designed to act as a standalone mod, it is recommended that you at least play with other mods that fill in the missing content with whatever you like. For example, you could combine this mod with a pre-20th century historic period content mod to create whatever historic game type you wish. This mod *should* be compatible with most mods, and won’t affect the weapons, apparel, and factions of other mods provided they use their own item tags. (Even guns)
+As stated before, this mod was originally created to serve as a companion mod for the Rimworld Westernization Project (RWP). However, RWP isn&apos;t required for this mod to function (but highly recommended), so it is entirely possible to play with just this mod alone. But, because this mod removes so much content, and wasn’t really designed to act as a standalone mod, it is recommended that you at least play with other mods that fill in the missing content with whatever you like. For example, you could combine this mod with a pre-20th century historic period content mod to create whatever historic game type you wish. This mod *should* be compatible with most mods, and won’t affect the weapons, apparel, and factions of other mods provided they use their own item tags. (Even guns)
 
 In addition to the above changes to the vanilla game, this mod also includes patches for a few mods that make them more “19th century” friendly. These include:
 
-1. EPOE (Disabled all advanced human prosthetics)
-4. A Dog Said... (Disabled all advanced animal prosthetics)
-5. Colony Manager (Reflavored managing software research to be more low tech, and added a simple research bench requirement.)
-6. Combat Extended (Too many changes to list.)
-7. Misc Core (Disabled both the Railgun and the BrainPal.)
-8. Medic Addons (Disabled industrial and spacer medical station add-ons)
+1. [url=http://steamcommunity.com/sharedfiles/filedetails/?id=725956940]EPOE[/url] (Disabled all advanced human prosthetics)
+4. [url=http://steamcommunity.com/sharedfiles/filedetails/?id=746425621]A Dog Said...[/url] (Disabled all advanced animal prosthetics)
+5. [url=http://steamcommunity.com/sharedfiles/filedetails/?id=715565262]Colony Manager[/url] (Reflavored managing software research to be more low tech, and added a simple research bench requirement.)
+6. [url=https://steamcommunity.com/workshop/filedetails/?id=960196012]Combat Extended[/url] (Too many changes to list.)
+7. [url=https://steamcommunity.com/workshop/filedetails/?id=704181221]Misc Core[/url] (Disabled both the Railgun and the BrainPal.)
+8. [url=https://steamcommunity.com/sharedfiles/filedetails/?id=786233894]Medic Addons[/url] (Disabled industrial and spacer medical station add-ons)
 
 Other recommended mods:
 
-1. Fishing Industry (Adds fishing. Excellent mod in almost all games, but nearly essential for those tundra games where food is extremely scarce.)
-2. Simple Sidearms (Allows pawns to carry ranged + melee weapon together.)
-3. Defensive Positions (Adds the ability to draft pawns to a saved position. This one is a lifesaver for all the micromanagement it takes care of.)
-4. Dubs Skylights (Very useful for making greenhouses.)
-5. Bridges (Not only useful for the bridges, but also allows you to place water tiles for that fortress moat you’ve always dreamed of.)
-6. Tilled Soil (Adds buildable soil for growing crops almost anywhere. Pairs very nicely with Dubs Skylights.)
-7. Quarry (Adds an excellent end-game electricity free resource mining solution)
-8. Misc. Bees'n'Honey (Adds beehives, honey, and brewable mead. Skyrim approved.)
+1. [url=http://steamcommunity.com/sharedfiles/filedetails/?id=758810805]Fishing Industry[/url] (Adds fishing. Excellent mod in almost all games, but nearly essential for those tundra games where food is extremely scarce.)
+2. [url=http://steamcommunity.com/sharedfiles/filedetails/?id=927155256]Simple Sidearms[/url] (Allows pawns to carry ranged + melee weapon together.)
+3. [url=http://steamcommunity.com/sharedfiles/filedetails/?id=761219125]Defensive Positions[/url] (Adds the ability to draft pawns to a saved position. This one is a lifesaver for all the micromanagement it takes care of.)
+4. [url=http://steamcommunity.com/sharedfiles/filedetails/?id=833899765]Dubs Skylights[/url] (Very useful for making greenhouses.)
+5. [url=http://steamcommunity.com/sharedfiles/filedetails/?id=788610933]Bridges[/url] (Not only useful for the bridges, but also allows you to place water tiles for that fortress moat you’ve always dreamed of.)
+6. [url=http://steamcommunity.com/sharedfiles/filedetails/?id=725747149]Tilled Soil[/url] (Adds buildable soil for growing crops almost anywhere. Pairs very nicely with Dubs Skylights.)
+7. [url=http://steamcommunity.com/sharedfiles/filedetails/?id=1208163715]Quarry[/url] (Adds an excellent end-game electricity free resource mining solution)
+8. [url=http://steamcommunity.com/sharedfiles/filedetails/?id=766264659]Misc. Bees&apos;n&apos;Honey[/url] (Adds beehives, honey, and brewable mead. Skyrim approved.)
 
 Suggested Load Order:
 
 1. Core
-2. Rimworld Westernization Project
-3. Combat Extended (Optional)
-4. Rimworld Westernization Project + Combat Extended Compatibility Mod (Optional: Use if you intend to play with both Rimworld Westernization Project and Combat Extended together.)
+2. [url=https://steamcommunity.com/workshop/filedetails/?id=1119081000]Rimworld Westernization Project[/url]
+3. [url=https://steamcommunity.com/workshop/filedetails/?id=960196012]Combat Extended[/url] (Optional)
+4. [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1386157873]Rimworld Westernization Project + Combat Extended Compatibility Mod[/url] (Optional: Use if you intend to play with both Rimworld Westernization Project and Combat Extended together.)
 5. Steam World
 
 If you have any feedback or ideas, please feel free to leave me a comment on the Steam Workshop or the Ludeon Forums.
 
 *Credits and Acknowledgements*
 
-- Vindar, for allowing me to use his coal resource system from Medieval Times.
+- Vindar, for allowing me to use his coal resource system from [url=http://steamcommunity.com/sharedfiles/filedetails/?id=732569232]Medieval Times[/url].
+
+- Iverness, for providing the art for the steam engine dynamo and telegraph station.
+
+Links
+
+[url=https://ludeon.com/forums/index.php?topic=41580]Ludeon Forums[/url]
+[url=https://www.moddb.com/games/rimworld/downloads/steam-world-19th-century]ModDB[/url]
+
+
+[img]https://i.imgur.com/Rs6T6cr.png[/img]
+[list]
+[*] See if the the error persists if you just have this mod and its requirements active.
+[*] If not, try adding your other mods until it happens again.
+[*] Post your error-log using [url=https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib[/url] and command Ctrl+F12
+[*] For best support, please use the Discord-channel for error-reporting.
+[*] Do not report errors by making a discussion-thread, I get no notification of that.
+[*] If you have the solution for a problem, please post it to the GitHub repository.
+[/list]
 </description>
 </ModMetaData>
+

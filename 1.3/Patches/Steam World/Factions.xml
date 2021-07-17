@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- ========== Mechanoids ========== -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/FactionDef[defName="Mechanoid" or defName="Empire"]/requiredCountAtGameStart</xpath>
+    <value>
+      <requiredCountAtGameStart>0</requiredCountAtGameStart>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/FactionDef[defName="Mechanoid"]/earliestRaidDays</xpath>
+    <value>
+      <earliestRaidDays>90000</earliestRaidDays>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/FactionDef[defName="Mechanoid"]/permanentEnemy</xpath>
+    <value>
+      <permanentEnemy>false</permanentEnemy>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/FactionDef[defName="Mechanoid"]/pawnGroupMakers/li/options/Mech_Centipede</xpath>
+    <value>
+      <Mech_Centipede>0</Mech_Centipede>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/FactionDef[defName="Mechanoid"]/pawnGroupMakers/li/options/Mech_Scyther</xpath>
+    <value>
+      <Mech_Scyther>0</Mech_Scyther>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/FactionDef[defName="Mechanoid"]/pawnGroupMakers/li/options/Mech_Lancer</xpath>
+    <value>
+      <Mech_Lancer>0</Mech_Lancer>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/FactionDef[defName="Mechanoid"]/pawnGroupMakers/li/options/Mech_Pikeman</xpath>
+    <value>
+      <Mech_Pikeman>0</Mech_Pikeman>
+    </value>
+  </Operation>
+  <!-- ========== Spacers ========== -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/FactionDef[@Name="AncientsBase"]/techLevel</xpath>
+    <value>
+      <techLevel>Medieval</techLevel>
+    </value>
+  </Operation>
+  <!-- ========== Insects ========== -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/FactionDef[defName="Insect"]/requiredCountAtGameStart</xpath>
+    <value>
+      <requiredCountAtGameStart>0</requiredCountAtGameStart>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/FactionDef[defName="Insect"]/permanentEnemy</xpath>
+    <value>
+      <permanentEnemy>false</permanentEnemy>
+    </value>
+  </Operation>
+  <!-- ========== Outlanders ========== -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/FactionDef[@Name="OutlanderFactionBase"]/canSiege</xpath>
+    <value>
+      <canSiege>false</canSiege>
+    </value>
+  </Operation>
+  <!-- ========== Pirates ========== -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/FactionDef/canSiege</xpath>
+    <value>
+      <canSiege>false</canSiege>
+    </value>
+  </Operation>
+  <!-- ========== Player ========== -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/FactionDef[defName="PlayerColony"]/techLevel</xpath>
+    <value>
+      <techLevel>Medieval</techLevel>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/FactionDef[defName="PlayerColony"]/apparelStuffFilter/thingDefs/li</xpath>
+    <value>
+      <li>Cloth</li>
+    </value>
+  </Operation>
+  <!-- Catch all -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/FactionDef/techLevel</xpath>
+    <value>
+      <techLevel>Medieval</techLevel>
+    </value>
+  </Operation>
+</Patch>
