@@ -97,4 +97,13 @@
       <weaponMoney>510~900</weaponMoney>
     </value>
   </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/PawnKindDef[defName="Hunter"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/PawnKindDef[defName="Hunter"]/weaponMoney</xpath>
+      <value>
+        <weaponMoney>160~270</weaponMoney>
+      </value>
+    </match>
+  </Operation>
 </Patch>

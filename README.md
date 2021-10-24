@@ -1,6 +1,6 @@
 # SteamWorld
 
-![Image](https://i.imgur.com/WAEzk68.png)
+![Image](https://i.imgur.com/buuPQel.png)
 
 Update of Tamias mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1394392968
@@ -8,22 +8,13 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=1394392968
 - Some errors can show when accepting quests since the quests mostly uses shuttles
 - Empire faction is also removed
 
-![Image](https://i.imgur.com/7Gzt3Rg.png)
+![Image](https://i.imgur.com/pufA0kM.png)
 
-
-[table]
-	[tr]
-		[td]https://invite.gg/Mlie]![Image](https://i.imgur.com/zdzzBrc.png)
-[/td]
-		[td]https://github.com/emipa606/SteamWorld]![Image](https://i.imgur.com/kTkpTOE.png)
-[/td]
-	[/tr]
-[/table]
 	
-![Image](https://i.imgur.com/NOW7jU1.png)
+![Image](https://i.imgur.com/Z4GOv8H.png)
 
 
-&quot;Steam Worlds: Similar to Earth in the 19th century. Often this state is short-lived, as societies develop into midworlds, but it can be very stretched out depending on culture and government structure.&quot;
+"Steam Worlds: Similar to Earth in the 19th century. Often this state is short-lived, as societies develop into midworlds, but it can be very stretched out depending on culture and government structure."
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀- Rimworld Fiction Primer
 __________________________________________________________________________
 
@@ -43,7 +34,7 @@ Steam World is a world-limiter mod designed as a companion to the https://steamc
 - Removal of certain advanced items (AI core, glitterworld medicine, ect.)
 - Removal of all advanced body parts (bionic and higher) from vanilla factions and traders.
 
-As stated before, this mod was originally created to serve as a companion mod for the Rimworld Westernization Project (RWP). However, RWP isn&apos;t required for this mod to function (but highly recommended), so it is entirely possible to play with just this mod alone. But, because this mod removes so much content, and wasn’t really designed to act as a standalone mod, it is recommended that you at least play with other mods that fill in the missing content with whatever you like. For example, you could combine this mod with a pre-20th century historic period content mod to create whatever historic game type you wish. This mod *should* be compatible with most mods, and won’t affect the weapons, apparel, and factions of other mods provided they use their own item tags. (Even guns)
+As stated before, this mod was originally created to serve as a companion mod for the Rimworld Westernization Project (RWP). However, RWP isn't required for this mod to function (but highly recommended), so it is entirely possible to play with just this mod alone. But, because this mod removes so much content, and wasn’t really designed to act as a standalone mod, it is recommended that you at least play with other mods that fill in the missing content with whatever you like. For example, you could combine this mod with a pre-20th century historic period content mod to create whatever historic game type you wish. This mod *should* be compatible with most mods, and won’t affect the weapons, apparel, and factions of other mods provided they use their own item tags. (Even guns)
 
 In addition to the above changes to the vanilla game, this mod also includes patches for a few mods that make them more “19th century” friendly. These include:
 
@@ -63,7 +54,7 @@ Other recommended mods:
 5. http://steamcommunity.com/sharedfiles/filedetails/?id=788610933]Bridges (Not only useful for the bridges, but also allows you to place water tiles for that fortress moat you’ve always dreamed of.)
 6. http://steamcommunity.com/sharedfiles/filedetails/?id=725747149]Tilled Soil (Adds buildable soil for growing crops almost anywhere. Pairs very nicely with Dubs Skylights.)
 7. http://steamcommunity.com/sharedfiles/filedetails/?id=1208163715]Quarry (Adds an excellent end-game electricity free resource mining solution)
-8. http://steamcommunity.com/sharedfiles/filedetails/?id=766264659]Misc. Bees&apos;n&apos;Honey (Adds beehives, honey, and brewable mead. Skyrim approved.)
+8. http://steamcommunity.com/sharedfiles/filedetails/?id=766264659]Misc. Bees'n'Honey (Adds beehives, honey, and brewable mead. Skyrim approved.)
 
 Suggested Load Order:
 
@@ -87,7 +78,7 @@ https://ludeon.com/forums/index.php?topic=41580]Ludeon Forums
 https://www.moddb.com/games/rimworld/downloads/steam-world-19th-century]ModDB
 
 
-![Image](https://i.imgur.com/Rs6T6cr.png)
+![Image](https://i.imgur.com/PwoNOj4.png)
 
 
 
