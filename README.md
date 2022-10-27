@@ -7,6 +7,7 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=1394392968
 
 - Some errors can show when accepting quests since the quests mostly uses shuttles
 - Empire faction is also removed
+- Added support for https://steamcommunity.com/sharedfiles/filedetails/?id=2574489704]Simple FX: Smoke
 
 ![Image](https://i.imgur.com/pufA0kM.png)
 
@@ -88,6 +89,7 @@ https://www.moddb.com/games/rimworld/downloads/steam-world-19th-century]ModDB
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.
+
 
 
 

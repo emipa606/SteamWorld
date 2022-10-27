@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- ========== Remove Advanced Weapon Tags ========== -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/PawnKindDef/weaponTags/li[.="GrenadeEMP"]</xpath>
+    <value>
+      <li>Molotov</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/PawnKindDef/weaponTags/li[.="GrenadeSmoke"]</xpath>
+    <value>
+      <li>Molotov</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/PawnKindDef/weaponTags/li[.="GrenadeDestructive"]</xpath>
+    <value>
+      <li>Molotov</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/PawnKindDef/weaponTags/li[.="SniperRifle"]</xpath>
+    <value>
+      <li>Gun</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/PawnKindDef/weaponTags/li[.="GunHeavy"]</xpath>
+    <value>
+      <li>Gun</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/PawnKindDef/weaponTags/li[.="GunSingleUse"]</xpath>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/PawnKindDef/weaponTags/li[.="IndustrialGunAdvanced"]</xpath>
+    <value>
+      <li>Gun</li>
+    </value>
+  </Operation>
+  <!-- ========== Remove Advanced Hediffs ========== -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/PawnKindDef/techHediffsTags/li[.="Advanced"]</xpath>
+    <value>
+      <li>Simple</li>
+    </value>
+  </Operation>
+  <!-- ========== Remove Advanced Apparel Tags ========== -->
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/PawnKindDef/apparelRequired/li[.="Apparel_ShieldBelt"]</xpath>
+  </Operation>
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/PawnKindDef/apparelTags/li[.="BeltDefensePop"]</xpath>
+  </Operation>
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/PawnKindDef/apparelTags/li[.="IndustrialBasic"]</xpath>
+  </Operation>
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/PawnKindDef/apparelTags/li[.="IndustrialAdvanced"]</xpath>
+  </Operation>
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/PawnKindDef/apparelTags/li[.="IndustrialMilitaryBasic"]</xpath>
+  </Operation>
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/PawnKindDef/apparelTags/li[.="IndustrialMilitaryAdvanced"]</xpath>
+  </Operation>
+  <!-- ========== Update money ========== -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/PawnKindDef[@Name="MercenaryGunnerBase"]/weaponMoney</xpath>
+    <value>
+      <weaponMoney>510~650</weaponMoney>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/PawnKindDef[@Name="MercenaryEliteTierBase"]/weaponMoney</xpath>
+    <value>
+      <weaponMoney>510~1400</weaponMoney>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/PawnKindDef[defName="Town_Guard"]/weaponMoney</xpath>
+    <value>
+      <weaponMoney>510~600</weaponMoney>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/PawnKindDef[defName="Town_Trader" or defName="Town_Councilman" or defName="Scavenger" or defName="Pirate"]/weaponMoney</xpath>
+    <value>
+      <weaponMoney>510~510</weaponMoney>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/PawnKindDef[defName="AncientSoldier"]/weaponMoney</xpath>
+    <value>
+      <weaponMoney>510~900</weaponMoney>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/PawnKindDef[defName="Hunter"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/PawnKindDef[defName="Hunter"]/weaponMoney</xpath>
+      <value>
+        <weaponMoney>160~270</weaponMoney>
+      </value>
+    </match>
+  </Operation>
+</Patch>
