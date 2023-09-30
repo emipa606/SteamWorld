@@ -92,4 +92,5 @@ https://www.moddb.com/games/rimworld/downloads/steam-world-19th-century]ModDB
 
 
 
+https://steamcommunity.com/sharedfiles/filedetails/changelog/2238859064]![Image](https://img.shields.io/github/v/release/emipa606/SteamWorld?label=latest%20version&style=plastic&color=9f1111&labelColor=black)
 

@@ -2,212 +2,21 @@
 <Patch>
   <!-- ========== Tier II Advanced Tab Movement ========== -->
   <Operation Class="PatchOperationAdd">
-    <xpath>/Defs/ResearchProjectDef[defName = "GoJuiceProduction"]</xpath>
-    <value>
-      <tab>AdvancedTech</tab>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationAdd">
-    <xpath>/Defs/ResearchProjectDef[defName = "PenoxycylineProduction"]</xpath>
-    <value>
-      <tab>AdvancedTech</tab>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationAdd">
-    <xpath>/Defs/ResearchProjectDef[defName = "WakeUpProduction"]</xpath>
-    <value>
-      <tab>AdvancedTech</tab>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationAdd">
-    <xpath>/Defs/ResearchProjectDef[defName = "SolarPanels"]</xpath>
-    <value>
-      <tab>AdvancedTech</tab>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationAdd">
-    <xpath>/Defs/ResearchProjectDef[defName = "AirConditioning"]</xpath>
-    <value>
-      <tab>AdvancedTech</tab>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationAdd">
-    <xpath>/Defs/ResearchProjectDef[defName = "SmokepopBelt"]</xpath>
-    <value>
-      <tab>AdvancedTech</tab>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationAdd">
-    <xpath>/Defs/ResearchProjectDef[defName = "MicroelectronicsBasics"]</xpath>
-    <value>
-      <tab>AdvancedTech</tab>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationAdd">
-    <xpath>/Defs/ResearchProjectDef[defName = "TubeTelevision"]</xpath>
-    <value>
-      <tab>AdvancedTech</tab>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationAdd">
-    <xpath>/Defs/ResearchProjectDef[defName = "FlatscreenTelevision"]</xpath>
-    <value>
-      <tab>AdvancedTech</tab>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationAdd">
-    <xpath>/Defs/ResearchProjectDef[defName = "Autodoors"]</xpath>
-    <value>
-      <tab>AdvancedTech</tab>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationAdd">
-    <xpath>/Defs/ResearchProjectDef[defName = "NutrientPaste"]</xpath>
-    <value>
-      <tab>AdvancedTech</tab>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationAdd">
-    <xpath>/Defs/ResearchProjectDef[defName = "Hydroponics"]</xpath>
-    <value>
-      <tab>AdvancedTech</tab>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationAdd">
-    <xpath>/Defs/ResearchProjectDef[defName = "PackagedSurvivalMeal"]</xpath>
-    <value>
-      <tab>AdvancedTech</tab>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationAdd">
-    <xpath>/Defs/ResearchProjectDef[defName = "IEDs"]</xpath>
-    <value>
-      <tab>AdvancedTech</tab>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationAdd">
-    <xpath>/Defs/ResearchProjectDef[defName = "Mortars"]</xpath>
-    <value>
-      <tab>AdvancedTech</tab>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationAdd">
-    <xpath>/Defs/ResearchProjectDef[defName = "BlowbackOperation"]</xpath>
-    <value>
-      <tab>AdvancedTech</tab>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationAdd">
-    <xpath>/Defs/ResearchProjectDef[defName = "GasOperation"]</xpath>
-    <value>
-      <tab>AdvancedTech</tab>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationAdd">
-    <xpath>/Defs/ResearchProjectDef[defName = "PrecisionRifling"]</xpath>
+    <xpath>/Defs/ResearchProjectDef[defName = "GoJuiceProduction" or defName = "PenoxycylineProduction" or defName = "WakeUpProduction" or defName = "SolarPanels" or defName = "AirConditioning" or defName = "SmokepopBelt" or defName = "MicroelectronicsBasics" or defName = "TubeTelevision" or defName = "FlatscreenTelevision" or defName = "Autodoors" or defName = "NutrientPaste" or defName = "Hydroponics" or defName = "PackagedSurvivalMeal" or defName = "IEDs" or defName = "Mortars" or defName = "BlowbackOperation" or defName = "GasOperation" or defName = "PrecisionRifling"]</xpath>
     <value>
       <tab>AdvancedTech</tab>
     </value>
   </Operation>
   <!-- ========== Tier III Advanced Tab Movement ========== -->
   <Operation Class="PatchOperationAdd">
-    <xpath>/Defs/ResearchProjectDef[defName = "Firefoam"]</xpath>
-    <value>
-      <tab>AdvancedTech</tab>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationAdd">
-    <xpath>/Defs/ResearchProjectDef[defName = "MoisturePump"]</xpath>
-    <value>
-      <tab>AdvancedTech</tab>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationAdd">
-    <xpath>/Defs/ResearchProjectDef[defName = "GeothermalPower"]</xpath>
-    <value>
-      <tab>AdvancedTech</tab>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationAdd">
-    <xpath>/Defs/ResearchProjectDef[defName = "TransportPod"]</xpath>
-    <value>
-      <tab>AdvancedTech</tab>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationAdd">
-    <xpath>/Defs/ResearchProjectDef[defName = "MultiAnalyzer"]</xpath>
-    <value>
-      <tab>AdvancedTech</tab>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationAdd">
-    <xpath>/Defs/ResearchProjectDef[defName = "LongRangeMineralScanner"]</xpath>
+    <xpath>/Defs/ResearchProjectDef[defName = "Firefoam" or defName = "MoisturePump" or defName = "GeothermalPower" or defName = "TransportPod" or defName = "MultiAnalyzer" or defName = "LongRangeMineralScanner" or defName = "ToxGas" or defName = "FoamTurret" or defName = "Deathrest" or defName = "ToxifierGenerator" or defName = "BasicMechtech" or defName = "WastepackAtomizer" or defName = "FertilityProcedures" or defName = "StandardMechtech" or defName = "HighMechtech" or defName = "UltraMechtech" or defName = "Xenogermination" or defName = "BiofuelRefining"]</xpath>
     <value>
       <tab>AdvancedTech</tab>
     </value>
   </Operation>
   <!-- ========== Tier IV Advanced Tab Movement ========== -->
   <Operation Class="PatchOperationAdd">
-    <xpath>/Defs/ResearchProjectDef[defName = "GroundPenetratingScanner"]</xpath>
-    <value>
-      <tab>AdvancedTech</tab>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationAdd">
-    <xpath>/Defs/ResearchProjectDef[defName = "DeepDrilling"]</xpath>
-    <value>
-      <tab>AdvancedTech</tab>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationAdd">
-    <xpath>/Defs/ResearchProjectDef[defName = "VitalsMonitor"]</xpath>
-    <value>
-      <tab>AdvancedTech</tab>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationAdd">
-    <xpath>/Defs/ResearchProjectDef[defName = "Fabrication"]</xpath>
-    <value>
-      <tab>AdvancedTech</tab>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationSequence">
-    <success>Always</success>
-    <operations>
-      <li Class="PatchOperationAdd">
-        <xpath>/Defs/ResearchPRojectDef[defName = "Gunlink"]</xpath>
-        <value>
-          <tab>AdvancedTech</tab>
-        </value>
-      </li>
-      <li Class="PatchOperationAdd">
-        <xpath>/Defs/ResearchProjectDef[defName = "MultibarrelWeapons"]</xpath>
-        <value>
-          <tab>AdvancedTech</tab>
-        </value>
-      </li>
-    </operations>
-  </Operation>
-  <Operation Class="PatchOperationAdd">
-    <xpath>/Defs/ResearchProjectDef[defName = "Cryptosleep"]</xpath>
-    <value>
-      <tab>AdvancedTech</tab>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationAdd">
-    <xpath>/Defs/ResearchProjectDef[defName = "PoweredArmor"]</xpath>
-    <value>
-      <tab>AdvancedTech</tab>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationAdd">
-    <xpath>/Defs/ResearchProjectDef[defName = "ShieldBelt"]</xpath>
-    <value>
-      <tab>AdvancedTech</tab>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationAdd">
-    <xpath>/Defs/ResearchProjectDef[defName = "ChargedShot"]</xpath>
+    <xpath>/Defs/ResearchProjectDef[defName = "GroundPenetratingScanner" or defName = "DeepDrilling" or defName = "VitalsMonitor" or defName = "Fabrication" or defName = "Gunlink" or defName = "MultibarrelWeapons" or defName = "Cryptosleep" or defName = "PoweredArmor" or defName = "ShieldBelt" or defName = "ChargedShot"]</xpath>
     <value>
       <tab>AdvancedTech</tab>
     </value>

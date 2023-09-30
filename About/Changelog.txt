@@ -1,5 +1,8 @@
 # Changelog for SteamWorld
 
+1.4.2 - Removed the added advanced research in Biotech
+
+
 1.4.1 - Mod updated for 1.4 and passed autotests
 
 
