@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- ========== Incident Changes ========== -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/IncidentDef[defName="ResourcePodCrash"]/baseChance</xpath>
+    <value>
+      <baseChance>0</baseChance>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/IncidentDef[defName="RefugeePodCrash"]/baseChance</xpath>
+    <value>
+      <baseChance>0</baseChance>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/IncidentDef[defName="ShipChunkDrop"]/baseChance</xpath>
+    <value>
+      <baseChance>0</baseChance>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/IncidentDef[defName="OrbitalTraderArrival"]/baseChance</xpath>
+    <value>
+      <baseChance>0</baseChance>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/IncidentDef[defName="PsychicEmanatorShipPartCrash"]/baseChance</xpath>
+    <value>
+      <baseChance>0</baseChance>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/IncidentDef[defName="DefoliatorShipPartCrash"]/baseChance</xpath>
+    <value>
+      <baseChance>0</baseChance>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/IncidentDef[defName="MechCluster"]/baseChance</xpath>
+    <value>
+      <baseChance>0</baseChance>
+    </value>
+  </Operation>
+  <!-- ========== Raid Strategy Changes ========== -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/RaidStrategyDef[defName="ImmediateAttack"]/arriveModes</xpath>
+    <value>
+      <arriveModes>
+        <li>EdgeWalkIn</li>
+      </arriveModes>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/RaidStrategyDef[defName="ImmediateAttackSmart"]/arriveModes</xpath>
+    <value>
+      <arriveModes>
+        <li>EdgeWalkIn</li>
+      </arriveModes>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/RaidStrategyDef[defName="StageThenAttack"]/arriveModes</xpath>
+    <value>
+      <arriveModes>
+        <li>EdgeWalkIn</li>
+      </arriveModes>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/RaidStrategyDef[defName="ImmediateAttackSappers"]/arriveModes</xpath>
+    <value>
+      <arriveModes>
+        <li>EdgeWalkIn</li>
+      </arriveModes>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/RaidStrategyDef[defName="Siege"]/arriveModes</xpath>
+    <value>
+      <arriveModes>
+        <li>EdgeWalkIn</li>
+      </arriveModes>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/RaidStrategyDef[defName="Siege"]/selectionWeightPerPointsCurve</xpath>
+    <value>
+      <selectionWeightPerPointsCurve>
+        <points>
+          <li>(799,  0)</li>
+        </points>
+      </selectionWeightPerPointsCurve>
+    </value>
+  </Operation>
+</Patch>
