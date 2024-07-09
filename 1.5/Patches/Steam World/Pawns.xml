@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Patch>
   <!-- ========== Remove Advanced Weapon Tags ========== -->
   <Operation Class="PatchOperationReplace">
@@ -102,7 +102,16 @@
     <match Class="PatchOperationReplace">
       <xpath>Defs/PawnKindDef[defName="Hunter"]/weaponMoney</xpath>
       <value>
-        <weaponMoney>250~350</weaponMoney>
+        <weaponMoney>495~550</weaponMoney>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/PawnKindDef[defName="WellEquippedTraveler"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/PawnKindDef[defName="WellEquippedTraveler"]/weaponMoney</xpath>
+      <value>
+        <weaponMoney>495~600</weaponMoney>
       </value>
     </match>
   </Operation>
