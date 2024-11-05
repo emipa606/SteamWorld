@@ -602,7 +602,7 @@
     </value>
   </Operation>
   <Operation Class="PatchOperationAdd">
-    <xpath>Defs/ThingDef[defName="MegascreenTelevision"]</xpath>
+    <xpath>Defs/ThingDef[defName="MegascreenTelevision" or defName="ShipLandingBeacon"]</xpath>
     <value>
       <generateCommonality>0</generateCommonality>
       <tradeability>None</tradeability>
@@ -667,15 +667,6 @@
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="InfiniteChemreactor"]/tradeability</xpath>
     <value>
-      <tradeability>None</tradeability>
-    </value>
-  </Operation>
-  <!-- ShipLandingBeacon -->
-  <Operation Class="PatchOperationAdd">
-    <xpath>Defs/ThingDef[defName="ShipLandingBeacon"]</xpath>
-    <value>
-      <generateCommonality>0</generateCommonality>
-      <destroyOnDrop>True</destroyOnDrop>
       <tradeability>None</tradeability>
     </value>
   </Operation>

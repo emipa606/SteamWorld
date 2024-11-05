@@ -43,29 +43,37 @@
       <Mech_Pikeman>0</Mech_Pikeman>
     </value>
   </Operation>
-  <Operation Class="PatchOperationReplace" MayRequire="Ludeon.RimWorld.Biotech">
-    <xpath>Defs/FactionDef[defName="Mechanoid"]/pawnGroupMakers/li/options/Mech_Militor</xpath>
-    <value>
-      <Mech_Militor>0</Mech_Militor>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationReplace" MayRequire="Ludeon.RimWorld.Biotech">
-    <xpath>Defs/FactionDef[defName="Mechanoid"]/pawnGroupMakers/li/options/Mech_Centurion</xpath>
-    <value>
-      <Mech_Centurion>0</Mech_Centurion>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationReplace" MayRequire="Ludeon.RimWorld.Biotech">
-    <xpath>Defs/FactionDef[defName="Mechanoid"]/pawnGroupMakers/li/options/Mech_Warqueen</xpath>
-    <value>
-      <Mech_Warqueen>0</Mech_Warqueen>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationReplace" MayRequire="Ludeon.RimWorld.Biotech">
-    <xpath>Defs/FactionDef[defName="Mechanoid"]/pawnGroupMakers/li/options/Mech_Apocriton</xpath>
-    <value>
-      <Mech_Apocriton>0</Mech_Apocriton>
-    </value>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationReplace" MayRequire="Ludeon.RimWorld.Biotech">
+        <xpath>Defs/FactionDef[defName="Mechanoid"]/pawnGroupMakers/li/options/Mech_Militor</xpath>
+        <value>
+          <Mech_Militor>0</Mech_Militor>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace" MayRequire="Ludeon.RimWorld.Biotech">
+        <xpath>Defs/FactionDef[defName="Mechanoid"]/pawnGroupMakers/li/options/Mech_Centurion</xpath>
+        <value>
+          <Mech_Centurion>0</Mech_Centurion>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace" MayRequire="Ludeon.RimWorld.Biotech">
+        <xpath>Defs/FactionDef[defName="Mechanoid"]/pawnGroupMakers/li/options/Mech_Warqueen</xpath>
+        <value>
+          <Mech_Warqueen>0</Mech_Warqueen>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace" MayRequire="Ludeon.RimWorld.Biotech">
+        <xpath>Defs/FactionDef[defName="Mechanoid"]/pawnGroupMakers/li/options/Mech_Apocriton</xpath>
+        <value>
+          <Mech_Apocriton>0</Mech_Apocriton>
+        </value>
+      </li>
+      <li Class="PatchOperationRemove" MayRequire="Ludeon.RimWorld.Biotech">
+        <xpath>Defs/ThingDef[defName="Apparel_MechlordSuit"]/tradeability</xpath>
+      </li>
+    </operations>
   </Operation>
   <!-- ========== Spacers ========== -->
   <Operation Class="PatchOperationReplace">

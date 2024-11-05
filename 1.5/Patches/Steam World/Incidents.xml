@@ -32,13 +32,7 @@
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
-    <xpath>Defs/IncidentDef[defName="DefoliatorShipPartCrash"]/baseChance</xpath>
-    <value>
-      <baseChance>0</baseChance>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/IncidentDef[defName="MechCluster"]/baseChance</xpath>
+    <xpath>Defs/IncidentDef[defName="DefoliatorShipPartCrash" or defName="MechCluster"]/baseChance</xpath>
     <value>
       <baseChance>0</baseChance>
     </value>
