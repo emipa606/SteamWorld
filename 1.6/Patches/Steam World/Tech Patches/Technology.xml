@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- ========== Tier I Patches ========== -->
+  <!-- ========== Tier II Patches ========== -->
+  <Operation Class="PatchOperationRemove">
+    <xpath>/Defs/ResearchProjectDef[defName = "WakeUpProduction" or defName = "GoJuiceProduction" or defName = "PenoxycylineProduction" or defName = "NutrientPaste" or defName = "SolarPanels" or defName = "AirConditioning" or defName = "Autodoors" or defName = "Hydroponics" or defName = "IEDs" or defName = "Mortars" or defName = "BlowbackOperation" or defName = "PrecisionRifling" or defName = "SmokepopBelt" or defName = "MicroelectronicsBasics" or defName = "ToxGas" or defName = "FoamTurret" or defName = "Deathrest" or defName = "ToxifierGenerator" or defName = "BasicMechtech" or defName = "WastepackAtomizer" or defName = "FertilityProcedures" or defName = "StandardMechtech" or defName = "HighMechtech" or defName = "UltraMechtech" or defName = "Xenogermination" or defName = "BiofuelRefining"]/requiredResearchBuilding</xpath>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ResearchProjectDef[defName = "WakeUpProduction" or defName = "GoJuiceProduction" or defName = "PenoxycylineProduction" or defName = "NutrientPaste" or defName = "SolarPanels" or defName = "AirConditioning" or defName = "Autodoors" or defName = "Hydroponics" or defName = "IEDs" or defName = "Mortars" or defName = "BlowbackOperation" or defName = "PrecisionRifling" or defName = "SmokepopBelt" or defName = "MicroelectronicsBasics" or defName = "ToxGas" or defName = "FoamTurret" or defName = "Deathrest" or defName = "ToxifierGenerator" or defName = "BasicMechtech" or defName = "WastepackAtomizer" or defName = "FertilityProcedures" or defName = "StandardMechtech" or defName = "HighMechtech" or defName = "UltraMechtech" or defName = "Xenogermination" or defName = "BiofuelRefining"]</xpath>
+    <value>
+      <requiredResearchBuilding>FutureResearchBench</requiredResearchBuilding>
+    </value>
+  </Operation>
+  <!-- ========== Tier III Patches ========== -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ResearchProjectDef[defName = "HospitalBed"]/prerequisites/li</xpath>
+    <value>
+      <li>MedicineProduction</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationRemove">
+    <xpath>/Defs/ResearchProjectDef[defName = "HospitalBed"]/requiredResearchBuilding</xpath>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ResearchProjectDef[defName = "MedicineProduction"]/prerequisites/li[2]</xpath>
+    <value>
+      <li>Electricity</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationRemove">
+    <xpath>/Defs/ResearchProjectDef[defName = "MedicineProduction"]/requiredResearchBuilding</xpath>
+  </Operation>
+  <!-- ========== Tier IV Patches ========== -->
+  <!-- ========== Classic Start Removal ========== -->
+  <Operation Class="PatchOperationRemove">
+    <xpath>/Defs/ResearchProjectDef[defName = "Electricity"]/tags</xpath>
+  </Operation>
+  <Operation Class="PatchOperationRemove">
+    <xpath>/Defs/ResearchProjectDef[defName = "NutrientPaste"]/tags</xpath>
+  </Operation>
+  <Operation Class="PatchOperationRemove">
+    <xpath>/Defs/ResearchProjectDef[defName = "AirConditioning"]/tags</xpath>
+  </Operation>
+</Patch>

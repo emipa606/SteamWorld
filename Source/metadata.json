@@ -2,10 +2,16 @@
   "Continued": true,
   "CanAdd": "0",
   "CanRemove": "2",
-  "PreviewVersion": "1.5",
+  "PreviewVersion": "1.6",
   "SocialImageSet": true,
   "SearchTags": [
     "19th century",
     " steam"
-  ]
+  ],
+  "LastXmlCleaning": "2025-07-05T00:22:52.7826928+02:00",
+  "Patches": true,
+  "Defs": true,
+  "Assemblies": false,
+  "LinesOfCode": 0,
+  "LinesOfXML": 96923.0
 }

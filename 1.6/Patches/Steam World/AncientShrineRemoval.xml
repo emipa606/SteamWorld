@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- ========== Ancient Shrines ========== -->
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/MapGeneratorDef/genSteps/li[.="ScatterShrines"]</xpath>
+  </Operation>
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/GenStepDef[defName="ScatterShrines"]</xpath>
+  </Operation>
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/TileMutatorDef/preventGenSteps/li[.="ScatterShrines"]</xpath>
+  </Operation>
+</Patch>

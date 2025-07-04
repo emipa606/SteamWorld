@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: telegraph station -->
+  <Telegraph.label>telegraph station</Telegraph.label>
+  <!-- EN: The telegraph station allows communcication with remote traders as well as other factions for trade and diplomacy. -->
+  <Telegraph.description>The telegraph station allows communcication with remote traders as well as other factions for trade and diplomacy.</Telegraph.description>
+  <!-- EN: wire transfer beacon -->
+  <WireTransferBeacon.label>wire transfer beacon</WireTransferBeacon.label>
+  <!-- EN: Required for wired monetary transactions via the telegraph station. Can be placed indoors. -->
+  <WireTransferBeacon.description>Required for wired monetary transactions via the telegraph station. Can be placed indoors.</WireTransferBeacon.description>
+</LanguageData>

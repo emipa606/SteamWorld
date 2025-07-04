@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Coal mining -->
+  <SteamWorld_CoalMining.label>Coal mining</SteamWorld_CoalMining.label>
+  <!-- EN: Unlocks the stone quarry, as well as the ability to mine coal. -->
+  <SteamWorld_CoalMining.description>Unlocks the stone quarry, as well as the ability to mine coal.</SteamWorld_CoalMining.description>
+  <!-- EN: Steam power -->
+  <SteamWorld_SteamPower.label>Steam power</SteamWorld_SteamPower.label>
+  <!-- EN: Unlocks the steam engine dynamo, which produces electricity from burning coal. -->
+  <SteamWorld_SteamPower.description>Unlocks the steam engine dynamo, which produces electricity from burning coal.</SteamWorld_SteamPower.description>
+  <!-- EN: Electrical telegraphy -->
+  <SteamWorld_Telegraphy.label>Electrical telegraphy</SteamWorld_Telegraphy.label>
+  <!-- EN: Unlocks the telegraph station. -->
+  <SteamWorld_Telegraphy.description>Unlocks the telegraph station.</SteamWorld_Telegraphy.description>
+</LanguageData>

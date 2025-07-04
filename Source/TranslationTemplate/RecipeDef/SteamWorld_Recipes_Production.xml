@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: make chemfuel from coal -->
+  <MedTimes_MakeChemfuelCoal.label>make chemfuel from coal</MedTimes_MakeChemfuelCoal.label>
+  <!-- EN: Make a batch of chemfuel using coal by hydrogenation. -->
+  <MedTimes_MakeChemfuelCoal.description>Make a batch of chemfuel using coal by hydrogenation.</MedTimes_MakeChemfuelCoal.description>
+  <!-- EN: Refining chemfuel from coal. -->
+  <MedTimes_MakeChemfuelCoal.jobString>Refining chemfuel from coal.</MedTimes_MakeChemfuelCoal.jobString>
+  <!-- EN: make coal chunks from wood -->
+  <MedTimes_MakeCoalFromWood.label>make coal chunks from wood</MedTimes_MakeCoalFromWood.label>
+  <!-- EN: Make a batch of coal chunks by burning wood. -->
+  <MedTimes_MakeCoalFromWood.description>Make a batch of coal chunks by burning wood.</MedTimes_MakeCoalFromWood.description>
+  <!-- EN: Refining coal from wood. -->
+  <MedTimes_MakeCoalFromWood.jobString>Refining coal from wood.</MedTimes_MakeCoalFromWood.jobString>
+  <!-- EN: Gather Coal Chunks -->
+  <MedTimes_MakeStoneChunks_Coal.label>Gather Coal Chunks</MedTimes_MakeStoneChunks_Coal.label>
+  <!-- EN: (Bulk x25) Mine from underground Coal Seams to create usable Coal Chunks. -->
+  <MedTimes_MakeStoneChunks_Coal.description>(Bulk x25) Mine from underground Coal Seams to create usable Coal Chunks.</MedTimes_MakeStoneChunks_Coal.description>
+  <!-- EN: Mining for Coal Chunks. -->
+  <MedTimes_MakeStoneChunks_Coal.jobString>Mining for Coal Chunks.</MedTimes_MakeStoneChunks_Coal.jobString>
+  <!-- EN: Gather Granite Chunks -->
+  <MedTimes_MakeStoneChunks_Granite.label>Gather Granite Chunks</MedTimes_MakeStoneChunks_Granite.label>
+  <!-- EN: Cuts rock chunks into usable stone blocks. -->
+  <MedTimes_MakeStoneChunks_Granite.description>Cuts rock chunks into usable stone blocks.</MedTimes_MakeStoneChunks_Granite.description>
+  <!-- EN: Mining for Granite Chunk. -->
+  <MedTimes_MakeStoneChunks_Granite.jobString>Mining for Granite Chunk.</MedTimes_MakeStoneChunks_Granite.jobString>
+  <!-- EN: Gather Limestone Chunks -->
+  <MedTimes_MakeStoneChunks_Limestone.label>Gather Limestone Chunks</MedTimes_MakeStoneChunks_Limestone.label>
+  <!-- EN: Cuts rock chunks into usable stone blocks. -->
+  <MedTimes_MakeStoneChunks_Limestone.description>Cuts rock chunks into usable stone blocks.</MedTimes_MakeStoneChunks_Limestone.description>
+  <!-- EN: Mining for Limestone Chunk. -->
+  <MedTimes_MakeStoneChunks_Limestone.jobString>Mining for Limestone Chunk.</MedTimes_MakeStoneChunks_Limestone.jobString>
+  <!-- EN: Gather Marble Chunks -->
+  <MedTimes_MakeStoneChunks_Marble.label>Gather Marble Chunks</MedTimes_MakeStoneChunks_Marble.label>
+  <!-- EN: Cuts rock chunks into usable stone blocks. -->
+  <MedTimes_MakeStoneChunks_Marble.description>Cuts rock chunks into usable stone blocks.</MedTimes_MakeStoneChunks_Marble.description>
+  <!-- EN: Mining for Marble Chunk. -->
+  <MedTimes_MakeStoneChunks_Marble.jobString>Mining for Marble Chunk.</MedTimes_MakeStoneChunks_Marble.jobString>
+  <!-- EN: Gather Sandstone Chunks -->
+  <MedTimes_MakeStoneChunks_Sandstone.label>Gather Sandstone Chunks</MedTimes_MakeStoneChunks_Sandstone.label>
+  <!-- EN: Cuts rock chunks into usable stone blocks. -->
+  <MedTimes_MakeStoneChunks_Sandstone.description>Cuts rock chunks into usable stone blocks.</MedTimes_MakeStoneChunks_Sandstone.description>
+  <!-- EN: Mining for Sandstone Chunk. -->
+  <MedTimes_MakeStoneChunks_Sandstone.jobString>Mining for Sandstone Chunk.</MedTimes_MakeStoneChunks_Sandstone.jobString>
+  <!-- EN: Gather Slate Chunks -->
+  <MedTimes_MakeStoneChunks_Slate.label>Gather Slate Chunks</MedTimes_MakeStoneChunks_Slate.label>
+  <!-- EN: Cuts rock chunks into usable stone blocks. -->
+  <MedTimes_MakeStoneChunks_Slate.description>Cuts rock chunks into usable stone blocks.</MedTimes_MakeStoneChunks_Slate.description>
+  <!-- EN: Mining for Slate Chunk. -->
+  <MedTimes_MakeStoneChunks_Slate.jobString>Mining for Slate Chunk.</MedTimes_MakeStoneChunks_Slate.jobString>
+</LanguageData>

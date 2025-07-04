@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Stone Quarry (blueprint) -->
+  <Blueprint_Install_MedTimes_StoneQuarry.label>Stone Quarry (blueprint)</Blueprint_Install_MedTimes_StoneQuarry.label>
+  <!-- EN: Steam Engine Dynamo (blueprint) -->
+  <Blueprint_Install_SW_CoalGenerator.label>Steam Engine Dynamo (blueprint)</Blueprint_Install_SW_CoalGenerator.label>
+  <!-- EN: telegraph station (blueprint) -->
+  <Blueprint_Install_Telegraph.label>telegraph station (blueprint)</Blueprint_Install_Telegraph.label>
+  <!-- EN: wire transfer beacon (blueprint) -->
+  <Blueprint_Install_WireTransferBeacon.label>wire transfer beacon (blueprint)</Blueprint_Install_WireTransferBeacon.label>
+  <!-- EN: Stone Quarry (blueprint) -->
+  <Blueprint_MedTimes_StoneQuarry.label>Stone Quarry (blueprint)</Blueprint_MedTimes_StoneQuarry.label>
+  <!-- EN: Steam Engine Dynamo (blueprint) -->
+  <Blueprint_SW_CoalGenerator.label>Steam Engine Dynamo (blueprint)</Blueprint_SW_CoalGenerator.label>
+  <!-- EN: telegraph station (blueprint) -->
+  <Blueprint_Telegraph.label>telegraph station (blueprint)</Blueprint_Telegraph.label>
+  <!-- EN: wire transfer beacon (blueprint) -->
+  <Blueprint_WireTransferBeacon.label>wire transfer beacon (blueprint)</Blueprint_WireTransferBeacon.label>
+  <!-- EN: Stone Quarry (building) -->
+  <Frame_MedTimes_StoneQuarry.label>Stone Quarry (building)</Frame_MedTimes_StoneQuarry.label>
+  <!-- EN: A Stone Quarry equipped with various tools used for the mining of coal, as well as the production of various types of stone chunks. -->
+  <Frame_MedTimes_StoneQuarry.description>A Stone Quarry equipped with various tools used for the mining of coal, as well as the production of various types of stone chunks.</Frame_MedTimes_StoneQuarry.description>
+  <!-- EN: Steam Engine Dynamo (building) -->
+  <Frame_SW_CoalGenerator.label>Steam Engine Dynamo (building)</Frame_SW_CoalGenerator.label>
+  <!-- EN: A large dynamo powered by a steam engine that burns coal to produce power. Has a chance to combust when damaged. -->
+  <Frame_SW_CoalGenerator.description>A large dynamo powered by a steam engine that burns coal to produce power. Has a chance to combust when damaged.</Frame_SW_CoalGenerator.description>
+  <!-- EN: telegraph station (building) -->
+  <Frame_Telegraph.label>telegraph station (building)</Frame_Telegraph.label>
+  <!-- EN: The telegraph station allows communcication with remote traders as well as other factions for trade and diplomacy. -->
+  <Frame_Telegraph.description>The telegraph station allows communcication with remote traders as well as other factions for trade and diplomacy.</Frame_Telegraph.description>
+  <!-- EN: wire transfer beacon (building) -->
+  <Frame_WireTransferBeacon.label>wire transfer beacon (building)</Frame_WireTransferBeacon.label>
+  <!-- EN: Required for wired monetary transactions via the telegraph station. Can be placed indoors. -->
+  <Frame_WireTransferBeacon.description>Required for wired monetary transactions via the telegraph station. Can be placed indoors.</Frame_WireTransferBeacon.description>
+</LanguageData>

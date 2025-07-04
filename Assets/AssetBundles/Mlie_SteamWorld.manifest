@@ -1,0 +1,37 @@
+ManifestFileVersion: 0
+CRC: 4022022690
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: fe4a1ef2ab7488c334391914fdbaf9c3
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2612ac43db082a73502ee80f2eceb73f
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: fe4a1ef2ab7488c334391914fdbaf9c3
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Data/Mlie.SteamWorld/Textures/Things/Building/Medieval/Quarry/MedTimes_StoneQuarry_IconB.png
+- Assets/Data/Mlie.SteamWorld/Textures/Things/Building/Empty.png
+- Assets/Data/Mlie.SteamWorld/Textures/Things/Item/Resource/Coal/MedTimes_NoCoal.png
+- Assets/Data/Mlie.SteamWorld/Textures/Things/Building/Medieval/Quarry/MedTimes_StoneQuarry_m.png
+- Assets/Data/Mlie.SteamWorld/Textures/Things/Building/Misc/Telegraph_east.png
+- Assets/Data/Mlie.SteamWorld/Textures/Things/Item/Resource/Coal/MedTimes_Coal.png
+- Assets/Data/Mlie.SteamWorld/Textures/Things/Building/Power/Old/SteamGenerator2.png
+- Assets/Data/Mlie.SteamWorld/Textures/Things/Building/Power/Old/SteamGenerator.png
+- Assets/Data/Mlie.SteamWorld/Textures/Things/Building/Misc/Telegraph_north.png
+- Assets/Data/Mlie.SteamWorld/Textures/Things/Building/Misc/Telegraph_eastm.png
+- Assets/Data/Mlie.SteamWorld/Textures/Things/Building/Medieval/Quarry/MedTimes_StoneQuarry.png
+- Assets/Data/Mlie.SteamWorld/Textures/Things/Building/Medieval/Quarry/MedTimes_StoneQuarry_Icon.png
+- Assets/Data/Mlie.SteamWorld/Textures/Things/Building/Misc/Telegraph_southm.png
+- Assets/Data/Mlie.SteamWorld/Textures/Things/Building/Misc/Telegraph_south.png
+- Assets/Data/Mlie.SteamWorld/Textures/Things/Building/Power/Old/SteamGenerator(Alt).png
+- Assets/Data/Mlie.SteamWorld/Textures/Things/Building/Misc/Telegraph_northm.png
+- Assets/Data/Mlie.SteamWorld/Textures/Things/Building/Power/SteamGenerator.png
+- Assets/Data/Mlie.SteamWorld/Textures/Things/Building/Power/Old/SteamGenerator(Old).png
+Dependencies: []

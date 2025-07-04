@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Stone Quarry -->
+  <MedTimes_StoneQuarry.label>Stone Quarry</MedTimes_StoneQuarry.label>
+  <!-- EN: A Stone Quarry equipped with various tools used for the mining of coal, as well as the production of various types of stone chunks. -->
+  <MedTimes_StoneQuarry.description>A Stone Quarry equipped with various tools used for the mining of coal, as well as the production of various types of stone chunks.</MedTimes_StoneQuarry.description>
+  <!-- EN: Steam Engine Dynamo -->
+  <SW_CoalGenerator.label>Steam Engine Dynamo</SW_CoalGenerator.label>
+  <!-- EN: A large dynamo powered by a steam engine that burns coal to produce power. Has a chance to combust when damaged. -->
+  <SW_CoalGenerator.description>A large dynamo powered by a steam engine that burns coal to produce power. Has a chance to combust when damaged.</SW_CoalGenerator.description>
+</LanguageData>
