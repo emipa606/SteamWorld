@@ -2,10 +2,20 @@
 <Patch>
   <!-- ========== Mechanoids ========== -->
   <Operation Class="PatchOperationReplace">
-    <xpath>Defs/FactionDef[defName="Mechanoid" or defName="Empire"]/requiredCountAtGameStart</xpath>
+    <xpath>Defs/FactionDef[defName="Mechanoid"]/requiredCountAtGameStart</xpath>
     <value>
       <requiredCountAtGameStart>0</requiredCountAtGameStart>
     </value>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThingDef[defName="EEG_GrandColumn"]</xpath>
+    <!-- <success>Always</success> -->
+    <nomatch Class="PatchOperationReplace">
+      <xpath>Defs/FactionDef[defName="Empire"]/requiredCountAtGameStart</xpath>
+      <value>
+        <requiredCountAtGameStart>0</requiredCountAtGameStart>
+      </value>
+    </nomatch>
   </Operation>
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/FactionDef[defName="Mechanoid"]/earliestRaidDays</xpath>

@@ -8,10 +8,11 @@
     "19th century",
     " steam"
   ],
-  "LastXmlCleaning": "2025-07-05T00:22:52.7826928+02:00",
+  "LastXmlCleaning": "2025-08-31T20:17:19.6499864+02:00",
   "Patches": true,
   "Defs": true,
   "Assemblies": false,
   "LinesOfCode": 0,
-  "LinesOfXML": 96923.0
+  "LinesOfXML": 97307,
+  "CodeBaseSize": 78
 }
