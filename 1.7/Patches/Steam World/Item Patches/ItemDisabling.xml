@@ -1,0 +1,684 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- ========== Gun Disabling ========== -->
+  <!-- Revolver -->
+  <Operation Class="PatchOperationAttributeSet">
+    <xpath>Defs/ThingDef[defName="Gun_Revolver"]</xpath>
+    <attribute>ParentName</attribute>
+    <value>BaseGun</value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Gun_Revolver" or defName="Gun_Revolver_Unique"]</xpath>
+    <value>
+      <generateCommonality>0</generateCommonality>
+      <tradeability>None</tradeability>
+      <destroyOnDrop>True</destroyOnDrop>
+    </value>
+  </Operation>
+  <!-- Autopistol -->
+  <Operation Class="PatchOperationAttributeSet">
+    <xpath>Defs/ThingDef[defName="Gun_Autopistol"]</xpath>
+    <attribute>ParentName</attribute>
+    <value>BaseGun</value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Gun_Autopistol"]</xpath>
+    <value>
+      <generateCommonality>0</generateCommonality>
+      <tradeability>None</tradeability>
+      <destroyOnDrop>True</destroyOnDrop>
+    </value>
+  </Operation>
+  <!-- T-9 incendiary launcher -->
+  <Operation Class="PatchOperationAttributeSet">
+    <xpath>Defs/ThingDef[defName="Gun_IncendiaryLauncher"]</xpath>
+    <attribute>ParentName</attribute>
+    <value>BaseGun</value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Gun_IncendiaryLauncher"]</xpath>
+    <value>
+      <tradeability>None</tradeability>
+      <destroyOnDrop>True</destroyOnDrop>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Gun_IncendiaryLauncher"]/generateCommonality</xpath>
+    <value>
+      <generateCommonality>0</generateCommonality>
+    </value>
+  </Operation>
+  <!-- Pump Shotgun -->
+  <Operation Class="PatchOperationAttributeSet">
+    <xpath>Defs/ThingDef[defName="Gun_PumpShotgun"]</xpath>
+    <attribute>ParentName</attribute>
+    <value>BaseGun</value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Gun_PumpShotgun"]</xpath>
+    <value>
+      <generateCommonality>0</generateCommonality>
+      <tradeability>None</tradeability>
+      <destroyOnDrop>True</destroyOnDrop>
+    </value>
+  </Operation>
+  <!-- Chain Shotgun -->
+  <Operation Class="PatchOperationAttributeSet">
+    <xpath>Defs/ThingDef[defName="Gun_ChainShotgun"]</xpath>
+    <attribute>ParentName</attribute>
+    <value>BaseGun</value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Gun_ChainShotgun" or defName="Gun_ChainShotgun_Unique"]</xpath>
+    <value>
+      <generateCommonality>0</generateCommonality>
+      <tradeability>None</tradeability>
+      <destroyOnDrop>True</destroyOnDrop>
+    </value>
+  </Operation>
+  <!-- Bolt-Action Rifle -->
+  <Operation Class="PatchOperationAttributeSet">
+    <xpath>Defs/ThingDef[defName="Gun_BoltActionRifle"]</xpath>
+    <attribute>ParentName</attribute>
+    <value>BaseGun</value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Gun_BoltActionRifle" or defName="Gun_BoltActionRifle_Unique"]</xpath>
+    <value>
+      <generateCommonality>0</generateCommonality>
+      <tradeability>None</tradeability>
+      <destroyOnDrop>True</destroyOnDrop>
+    </value>
+  </Operation>
+  <!-- Machine Pistol -->
+  <Operation Class="PatchOperationAttributeSet">
+    <xpath>Defs/ThingDef[defName="Gun_MachinePistol"]</xpath>
+    <attribute>ParentName</attribute>
+    <value>BaseGun</value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Gun_MachinePistol"]</xpath>
+    <value>
+      <generateCommonality>0</generateCommonality>
+      <tradeability>None</tradeability>
+      <destroyOnDrop>True</destroyOnDrop>
+    </value>
+  </Operation>
+  <!-- Heavy SMG -->
+  <Operation Class="PatchOperationAttributeSet">
+    <xpath>Defs/ThingDef[defName="Gun_HeavySMG"]</xpath>
+    <attribute>ParentName</attribute>
+    <value>BaseGun</value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Gun_HeavySMG" or defName="Gun_HeavySMG_Unique"]</xpath>
+    <value>
+      <generateCommonality>0</generateCommonality>
+      <tradeability>None</tradeability>
+      <destroyOnDrop>True</destroyOnDrop>
+    </value>
+  </Operation>
+  <!-- LMG -->
+  <Operation Class="PatchOperationAttributeSet">
+    <xpath>Defs/ThingDef[defName="Gun_LMG"]</xpath>
+    <attribute>ParentName</attribute>
+    <value>BaseGun</value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Gun_LMG" or defName="Gun_LMG_Unique"]</xpath>
+    <value>
+      <generateCommonality>0</generateCommonality>
+      <tradeability>None</tradeability>
+      <destroyOnDrop>True</destroyOnDrop>
+    </value>
+  </Operation>
+  <!-- Assault Rifle -->
+  <Operation Class="PatchOperationAttributeSet">
+    <xpath>Defs/ThingDef[defName="Gun_AssaultRifle"]</xpath>
+    <attribute>ParentName</attribute>
+    <value>BaseGun</value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Gun_AssaultRifle" or defName="Gun_AssaultRifle_Unique"]</xpath>
+    <value>
+      <generateCommonality>0</generateCommonality>
+      <tradeability>None</tradeability>
+      <destroyOnDrop>True</destroyOnDrop>
+    </value>
+  </Operation>
+  <!-- Charge Rifle -->
+  <Operation Class="PatchOperationAttributeSet">
+    <xpath>Defs/ThingDef[defName="Gun_ChargeRifle"]</xpath>
+    <attribute>ParentName</attribute>
+    <value>BaseGun</value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Gun_ChargeRifle" or defName="Gun_ChargeRifle_Unique"]</xpath>
+    <value>
+      <generateCommonality>0</generateCommonality>
+      <tradeability>None</tradeability>
+      <destroyOnDrop>True</destroyOnDrop>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/ThingDef[defName="Gun_ChargeRifle"]/recipeMaker</xpath>
+  </Operation>
+  <!-- Sniper Rifle -->
+  <Operation Class="PatchOperationAttributeSet">
+    <xpath>Defs/ThingDef[defName="Gun_SniperRifle"]</xpath>
+    <attribute>ParentName</attribute>
+    <value>BaseGun</value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Gun_SniperRifle" or defName="Gun_SniperRifle_Unique"]</xpath>
+    <value>
+      <generateCommonality>0</generateCommonality>
+      <tradeability>None</tradeability>
+      <destroyOnDrop>True</destroyOnDrop>
+    </value>
+  </Operation>
+  <!-- Minigun -->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationAttributeSet">
+        <xpath>Defs/ThingDef[defName="Gun_Minigun"]</xpath>
+        <attribute>ParentName</attribute>
+        <value>BaseGun</value>
+      </li>
+      <li Class="PatchOperationRemove">
+        <xpath>Defs/ThingDef[defName="Gun_Minigun"]/costList</xpath>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="Gun_Minigun" or defName="Gun_Minigun_Unique"]</xpath>
+        <value>
+          <tradeability>None</tradeability>
+          <destroyOnDrop>True</destroyOnDrop>
+        </value>
+      </li>
+      <li Class="PatchOperationRemove">
+        <xpath>Defs/ThingDef[defName="Gun_Minigun"]/recipeMaker</xpath>
+      </li>
+    </operations>
+  </Operation>
+  <!-- Triple Rocket Launcher -->
+  <Operation Class="PatchOperationAttributeSet">
+    <xpath>Defs/ThingDef[defName="Gun_TripleRocket"]</xpath>
+    <attribute>ParentName</attribute>
+    <value>BaseGun</value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Gun_TripleRocket"]</xpath>
+    <value>
+      <destroyOnDrop>True</destroyOnDrop>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Gun_TripleRocket"]</xpath>
+    <value>
+      <generateCommonality>0</generateCommonality>
+      <tradeability>None</tradeability>
+    </value>
+  </Operation>
+  <!-- Doomsday Rocket Launcher -->
+  <Operation Class="PatchOperationAttributeSet">
+    <xpath>Defs/ThingDef[defName="Gun_DoomsdayRocket"]</xpath>
+    <attribute>ParentName</attribute>
+    <value>BaseGun</value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Gun_DoomsdayRocket"]</xpath>
+    <value>
+      <destroyOnDrop>True</destroyOnDrop>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Gun_DoomsdayRocket"]</xpath>
+    <value>
+      <generateCommonality>0</generateCommonality>
+      <tradeability>None</tradeability>
+    </value>
+  </Operation>
+  <!-- ========== Grenade Disabling ========== -->
+  <!-- Frag Grenades -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Weapon_GrenadeFrag"]</xpath>
+    <value>
+      <generateCommonality>0</generateCommonality>
+      <tradeability>None</tradeability>
+      <destroyOnDrop>True</destroyOnDrop>
+    </value>
+  </Operation>
+  <!-- EMP Grenades -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Weapon_GrenadeEMP"]</xpath>
+    <value>
+      <generateCommonality>0</generateCommonality>
+      <tradeability>None</tradeability>
+      <destroyOnDrop>True</destroyOnDrop>
+    </value>
+  </Operation>
+  <!-- ========== Belt Disabling ========== -->
+  <!-- Shield Belt -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Apparel_ShieldBelt"]</xpath>
+    <value>
+      <generateCommonality>0</generateCommonality>
+      <tradeability>None</tradeability>
+      <destroyOnDrop>True</destroyOnDrop>
+    </value>
+  </Operation>
+  <!-- Smokepop Belt -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Apparel_SmokepopBelt"]</xpath>
+    <value>
+      <generateCommonality>0</generateCommonality>
+      <tradeability>None</tradeability>
+      <destroyOnDrop>True</destroyOnDrop>
+    </value>
+  </Operation>
+  <!-- ========== Apparel Disabling ========== -->
+  <!-- Advanced Helmet -->
+  <Operation Class="PatchOperationAttributeSet">
+    <xpath>Defs/ThingDef[defName="Apparel_AdvancedHelmet"]</xpath>
+    <attribute>ParentName</attribute>
+    <value>ApparelBase</value>
+  </Operation>
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/ThingDef[defName="Apparel_AdvancedHelmet"]/costList</xpath>
+  </Operation>
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/ThingDef[defName="Apparel_AdvancedHelmet"]/recipeMaker</xpath>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Apparel_AdvancedHelmet"]</xpath>
+    <value>
+      <generateCommonality>0</generateCommonality>
+      <tradeability>None</tradeability>
+      <destroyOnDrop>True</destroyOnDrop>
+    </value>
+  </Operation>
+  <!-- Power Armor Helmet -->
+  <Operation Class="PatchOperationAttributeSet">
+    <xpath>Defs/ThingDef[@Name="ApparelArmorHelmetPowerBase"]</xpath>
+    <attribute>ParentName</attribute>
+    <value>ApparelBase</value>
+  </Operation>
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/ThingDef[@Name="ApparelArmorHelmetPowerBase"]/costList</xpath>
+  </Operation>
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/ThingDef[@Name="ApparelArmorHelmetPowerBase"]/recipeMaker</xpath>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[@Name="ApparelArmorHelmetPowerBase"]</xpath>
+    <value>
+      <tradeability>None</tradeability>
+      <destroyOnDrop>True</destroyOnDrop>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[@Name="ApparelArmorHelmetPowerBase"]/generateCommonality</xpath>
+    <value>
+      <generateCommonality>0</generateCommonality>
+    </value>
+  </Operation>
+  <!-- Power Armor -->
+  <Operation Class="PatchOperationAttributeSet">
+    <xpath>Defs/ThingDef[@Name="ApparelArmorPowerBase"]</xpath>
+    <attribute>ParentName</attribute>
+    <value>ApparelBase</value>
+  </Operation>
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/ThingDef[@Name="ApparelArmorPowerBase"]/costList</xpath>
+  </Operation>
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/ThingDef[@Name="ApparelArmorPowerBase"]/recipeMaker</xpath>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[@Name="ApparelArmorPowerBase"]</xpath>
+    <value>
+      <tradeability>None</tradeability>
+      <destroyOnDrop>True</destroyOnDrop>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[@Name="ApparelArmorPowerBase"]/generateCommonality</xpath>
+    <value>
+      <generateCommonality>0</generateCommonality>
+    </value>
+  </Operation>
+  <!-- Foil Helmet -->
+  <Operation Class="PatchOperationAttributeSet">
+    <xpath>Defs/ThingDef[defName="Apparel_PsychicFoilHelmet"]</xpath>
+    <attribute>ParentName</attribute>
+    <value>ApparelBase</value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Apparel_PsychicFoilHelmet"]</xpath>
+    <value>
+      <tradeability>None</tradeability>
+      <destroyOnDrop>True</destroyOnDrop>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_PsychicFoilHelmet"]/generateCommonality</xpath>
+    <value>
+      <generateCommonality>0</generateCommonality>
+    </value>
+  </Operation>
+  <!-- ========== Medical Disabling ========== -->
+  <!-- Glitterworld Medicine -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="MedicineUltratech"]</xpath>
+    <value>
+      <generateCommonality>0</generateCommonality>
+      <tradeability>None</tradeability>
+      <destroyOnDrop>True</destroyOnDrop>
+    </value>
+  </Operation>
+  <!-- Bionic Eye -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="BionicEye"]</xpath>
+    <value>
+      <generateCommonality>0</generateCommonality>
+      <tradeability>None</tradeability>
+      <destroyOnDrop>True</destroyOnDrop>
+    </value>
+  </Operation>
+  <!-- Bionic Arm -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="BionicArm"]</xpath>
+    <value>
+      <generateCommonality>0</generateCommonality>
+      <tradeability>None</tradeability>
+      <destroyOnDrop>True</destroyOnDrop>
+    </value>
+  </Operation>
+  <!-- Bionic Leg -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="BionicLeg"]</xpath>
+    <value>
+      <generateCommonality>0</generateCommonality>
+      <tradeability>None</tradeability>
+      <destroyOnDrop>True</destroyOnDrop>
+    </value>
+  </Operation>
+  <!-- Power Claw -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="PowerClaw"]</xpath>
+    <value>
+      <generateCommonality>0</generateCommonality>
+      <tradeability>None</tradeability>
+      <destroyOnDrop>True</destroyOnDrop>
+    </value>
+  </Operation>
+  <!-- ========== Misc. Disabling ========== -->
+  <!-- Joywire -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Joywire"]</xpath>
+    <value>
+      <generateCommonality>0</generateCommonality>
+      <tradeability>None</tradeability>
+      <destroyOnDrop>True</destroyOnDrop>
+    </value>
+  </Operation>
+  <!-- Painstopper -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Painstopper"]</xpath>
+    <value>
+      <generateCommonality>0</generateCommonality>
+      <tradeability>None</tradeability>
+      <destroyOnDrop>True</destroyOnDrop>
+    </value>
+  </Operation>
+  <!-- Advanced Component -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="ComponentSpacer"]</xpath>
+    <value>
+      <generateCommonality>0</generateCommonality>
+      <tradeability>None</tradeability>
+      <destroyOnDrop>True</destroyOnDrop>
+    </value>
+  </Operation>
+  <!-- Neutroamine -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Neutroamine"]</xpath>
+    <value>
+      <generateCommonality>0</generateCommonality>
+      <tradeability>None</tradeability>
+      <destroyOnDrop>True</destroyOnDrop>
+    </value>
+  </Operation>
+  <!-- Packaged Survival Meal -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="MealSurvivalPack"]</xpath>
+    <value>
+      <generateCommonality>0</generateCommonality>
+      <tradeability>None</tradeability>
+      <destroyOnDrop>True</destroyOnDrop>
+    </value>
+  </Operation>
+  <!-- Nutrient Paste Meal -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="MealNutrientPaste"]</xpath>
+    <value>
+      <generateCommonality>0</generateCommonality>
+      <destroyOnDrop>True</destroyOnDrop>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="MealNutrientPaste"]/tradeability</xpath>
+    <value>
+      <tradeability>None</tradeability>
+    </value>
+  </Operation>
+  <!-- AI Persona Core -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="AIPersonaCore"]</xpath>
+    <value>
+      <generateCommonality>0</generateCommonality>
+      <destroyOnDrop>True</destroyOnDrop>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="AIPersonaCore"]/tradeability</xpath>
+    <value>
+      <tradeability>None</tradeability>
+    </value>
+  </Operation>
+  <!-- Orbital Utility Base -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[@Name="OrbitalUtilityBase"]</xpath>
+    <value>
+      <generateCommonality>0</generateCommonality>
+      <destroyOnDrop>True</destroyOnDrop>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/ThingDef[@Name="OrbitalUtilityBase"]/thingSetMakerTags</xpath>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[@Name="OrbitalUtilityBase"]/tradeability</xpath>
+    <value>
+      <tradeability>None</tradeability>
+    </value>
+  </Operation>
+  <!-- ========== Drug Disabling ========== -->
+  <!-- Go-Juice -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="GoJuice"]</xpath>
+    <value>
+      <generateCommonality>0</generateCommonality>
+      <tradeability>None</tradeability>
+      <destroyOnDrop>True</destroyOnDrop>
+    </value>
+  </Operation>
+  <!-- Luciferium -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Luciferium"]</xpath>
+    <value>
+      <generateCommonality>0</generateCommonality>
+      <tradeability>None</tradeability>
+      <destroyOnDrop>True</destroyOnDrop>
+    </value>
+  </Operation>
+  <!-- Wake-Up -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="WakeUp"]</xpath>
+    <value>
+      <generateCommonality>0</generateCommonality>
+      <tradeability>None</tradeability>
+      <destroyOnDrop>True</destroyOnDrop>
+    </value>
+  </Operation>
+  <!-- ========== Shell Disabling ========== -->
+  <!-- High-explosive -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Shell_HighExplosive"]</xpath>
+    <value>
+      <generateCommonality>0</generateCommonality>
+      <tradeability>None</tradeability>
+      <destroyOnDrop>True</destroyOnDrop>
+    </value>
+  </Operation>
+  <!-- Incendiary -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Shell_Incendiary"]</xpath>
+    <value>
+      <generateCommonality>0</generateCommonality>
+      <tradeability>None</tradeability>
+      <destroyOnDrop>True</destroyOnDrop>
+    </value>
+  </Operation>
+  <!-- EMP -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Shell_EMP"]</xpath>
+    <value>
+      <generateCommonality>0</generateCommonality>
+      <tradeability>None</tradeability>
+      <destroyOnDrop>True</destroyOnDrop>
+    </value>
+  </Operation>
+  <!-- Firefoam -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Shell_Firefoam"]</xpath>
+    <value>
+      <generateCommonality>0</generateCommonality>
+      <tradeability>None</tradeability>
+      <destroyOnDrop>True</destroyOnDrop>
+    </value>
+  </Operation>
+  <!-- Antigrain Warhead -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Shell_AntigrainWarhead"]</xpath>
+    <value>
+      <generateCommonality>0</generateCommonality>
+      <destroyOnDrop>True</destroyOnDrop>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Shell_AntigrainWarhead"]/tradeability</xpath>
+    <value>
+      <tradeability>None</tradeability>
+    </value>
+  </Operation>
+  <!-- ========== Building Disabling ========== -->
+  <!-- Televisions -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="TubeTelevision"]</xpath>
+    <value>
+      <generateCommonality>0</generateCommonality>
+      <tradeability>None</tradeability>
+      <destroyOnDrop>True</destroyOnDrop>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="FlatscreenTelevision"]</xpath>
+    <value>
+      <generateCommonality>0</generateCommonality>
+      <tradeability>None</tradeability>
+      <destroyOnDrop>True</destroyOnDrop>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="MegascreenTelevision" or defName="ShipLandingBeacon"]</xpath>
+    <value>
+      <generateCommonality>0</generateCommonality>
+      <tradeability>None</tradeability>
+      <destroyOnDrop>True</destroyOnDrop>
+    </value>
+  </Operation>
+  <!-- Wind Turbine -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="WindTurbine"]/researchPrerequisites</xpath>
+    <value>
+      <researchPrerequisites>
+        <li>MicroelectronicsBasics</li>
+      </researchPrerequisites>
+    </value>
+  </Operation>
+  <!-- ========== Special Building Disabling ========== -->
+  <!-- Psychic Emanator -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="PsychicEmanator"]</xpath>
+    <value>
+      <generateCommonality>0</generateCommonality>
+      <destroyOnDrop>True</destroyOnDrop>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/ThingDef[defName="PsychicEmanator"]/thingSetMakerTags</xpath>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="PsychicEmanator"]/tradeability</xpath>
+    <value>
+      <tradeability>None</tradeability>
+    </value>
+  </Operation>
+  <!-- Vanometric Power Cell -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="VanometricPowerCell"]</xpath>
+    <value>
+      <generateCommonality>0</generateCommonality>
+      <destroyOnDrop>True</destroyOnDrop>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/ThingDef[defName="VanometricPowerCell"]/thingSetMakerTags</xpath>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VanometricPowerCell"]/tradeability</xpath>
+    <value>
+      <tradeability>None</tradeability>
+    </value>
+  </Operation>
+  <!-- InfiniteChemreactor -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="InfiniteChemreactor"]</xpath>
+    <value>
+      <generateCommonality>0</generateCommonality>
+      <destroyOnDrop>True</destroyOnDrop>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/ThingDef[defName="InfiniteChemreactor"]/thingSetMakerTags</xpath>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="InfiniteChemreactor"]/tradeability</xpath>
+    <value>
+      <tradeability>None</tradeability>
+    </value>
+  </Operation>
+  <!-- Ship Tab -->
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/ThingDef[designationCategory="Ship"]/designationCategory</xpath>
+  </Operation>
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/DesignationCategoryDef[defName="Ship"]</xpath>
+  </Operation>
+  <!-- Rewards -->
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/ThingDef/thingSetMakerTags</xpath>
+  </Operation>
+</Patch>

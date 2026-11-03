@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Start of ThingDefs -->
+  <!-- ================ Base Classes ================ -->
+  <!-- Building Base Class -->
+  <ThingDef Name="MedTimes_BuildingBase" Abstract="True">
+    <category>Building</category>
+    <thingClass>Building</thingClass>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <selectable>true</selectable>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <repairEffect>Repair</repairEffect>
+    <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+    <filthLeaving>Filth_RubbleBuilding</filthLeaving>
+    <canOverlapZones>false</canOverlapZones>
+    <graphicData>
+      <damageData>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+        <edgeTop>Damage/Edge</edgeTop>
+        <edgeBot>Damage/Edge</edgeBot>
+        <edgeLeft>Damage/Edge</edgeLeft>
+        <edgeRight>Damage/Edge</edgeRight>
+      </damageData>
+    </graphicData>
+  </ThingDef>
+  <!-- ================***** Workbench Classes *****================ -->
+  <!-- Workbench Base Class -->
+  <ThingDef Name="MedTimes_BenchBase" ParentName="MedTimes_BuildingBase" Abstract="True">
+    <altitudeLayer>Building</altitudeLayer>
+    <surfaceType>Item</surfaceType>
+    <passability>PassThroughOnly</passability>
+    <pathCost>75</pathCost>
+    <useHitPoints>True</useHitPoints>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToBuild>1000</WorkToBuild>
+      <Flammability>1.0</Flammability>
+      <Mass>100</Mass>
+    </statBases>
+    <thingCategories>
+      <li>BuildingsProduction</li>
+    </thingCategories>
+    <building>
+      <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+    </building>
+    <minifiedDef>MinifiedThing</minifiedDef>
+  </ThingDef>
+  <!-- Non-Quality Base Class -->
+  <ThingDef Name="MedTimes_NoQualityBase" ParentName="MedTimes_BuildingBase" Abstract="True">
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <WorkToBuild>1000</WorkToBuild>
+      <Beauty>3</Beauty>
+      <Mass>10</Mass>
+    </statBases>
+    <pathCost>75</pathCost>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <tradeTags>
+      <li>MedTimes_Furniture</li>
+    </tradeTags>
+  </ThingDef>
+  <!-- ========================= Coal Resource Items/Buildings ==========================-->
+  <!-- (Medieval) Stone Quarry -->
+  <ThingDef ParentName="MedTimes_BenchBase">
+    <defName>MedTimes_StoneQuarry</defName>
+    <label>Stone Quarry</label>
+    <thingClass>Building_WorkTable</thingClass>
+    <description>A Stone Quarry equipped with various tools used for the mining of coal, as well as the production of various types of stone chunks.</description>
+    <size>(5,5)</size>
+    <graphicData>
+      <texPath>Things/Building/Medieval/Quarry/MedTimes_StoneQuarry</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>(5,5)</drawSize>
+    </graphicData>
+    <uiIconPath>Things/Building/Medieval/Quarry/MedTimes_StoneQuarry_Icon</uiIconPath>
+    <stuffCategories>
+      <li>Woody</li>
+    </stuffCategories>
+    <costStuffCount>50</costStuffCount>
+    <fillPercent>0.5</fillPercent>
+    <statBases>
+      <WorkToBuild>5000</WorkToBuild>
+      <MaxHitPoints>500</MaxHitPoints>
+      <Flammability>0</Flammability>
+      <Mass>500</Mass>
+    </statBases>
+    <hasInteractionCell>True</hasInteractionCell>
+    <interactionCellOffset>(1,0,-3)</interactionCellOffset>
+    <designationCategory>Production</designationCategory>
+    <inspectorTabs>
+      <li>ITab_Bills</li>
+    </inspectorTabs>
+    <comps>
+      <li Class="CompProperties_AffectedByFacilities">
+        <linkableFacilities>
+          <li>ToolCabinet</li>
+        </linkableFacilities>
+      </li>
+    </comps>
+    <placeWorkers>
+      <li>PlaceWorker_ShowFacilitiesConnections</li>
+    </placeWorkers>
+    <researchPrerequisites>
+      <li>SteamWorld_CoalMining</li>
+      <li>Stonecutting</li>
+    </researchPrerequisites>
+  </ThingDef>
+  <!-- ========================= Non-Makeable Items/Buildings ==========================-->
+  <!-- Coal Generator -->
+  <ThingDef ParentName="MedTimes_NoQualityBase">
+    <defName>SW_CoalGenerator</defName>
+    <label>Steam Engine Dynamo</label>
+    <thingClass>Building</thingClass>
+    <description>A large dynamo powered by a steam engine that burns coal to produce power. Has a chance to combust when damaged.</description>
+    <graphicData>
+      <texPath>Things/Building/Power/SteamGenerator</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(3,4)</drawSize>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <pathCost>150</pathCost>
+    <blockWind>true</blockWind>
+    <fillPercent>1.0</fillPercent>
+    <castEdgeShadows>false</castEdgeShadows>
+    <rotatable>false</rotatable>
+    <thingCategories Inherit="False">
+      <li>BuildingsPower</li>
+    </thingCategories>
+    <statBases>
+      <MaxHitPoints>400</MaxHitPoints>
+      <WorkToBuild>12000</WorkToBuild>
+      <Beauty>-2</Beauty>
+      <Mass>250</Mass>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <tickerType>Normal</tickerType>
+    <canOverlapZones>false</canOverlapZones>
+    <size>(3,4)</size>
+    <costList>
+      <Steel>260</Steel>
+      <ComponentIndustrial>4</ComponentIndustrial>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerPlant</compClass>
+        <basePowerConsumption>-2400</basePowerConsumption>
+        <transmitsPower>true</transmitsPower>
+      </li>
+      <li Class="CompProperties_Flickable" />
+      <li Class="CompProperties_Refuelable">
+        <fuelConsumptionRate>18.0</fuelConsumptionRate>
+        <fuelCapacity>200.0</fuelCapacity>
+        <fuelFilter>
+          <thingDefs>
+            <li>MedTimes_Resource_Coal</li>
+          </thingDefs>
+        </fuelFilter>
+      </li>
+      <li Class="CompProperties_Glower">
+        <glowRadius>8</glowRadius>
+        <glowColor>(217,112,33,0)</glowColor>
+      </li>
+      <li Class="CompProperties_HeatPusher">
+        <compClass>CompHeatPusherPowered</compClass>
+        <heatPerSecond>12</heatPerSecond>
+      </li>
+      <li Class="CompProperties_Breakdownable" />
+      <li Class="CompProperties_Explosive">
+        <explosiveRadius>4</explosiveRadius>
+        <explosiveDamageType>Bomb</explosiveDamageType>
+        <chanceNeverExplodeFromDamage>0.3</chanceNeverExplodeFromDamage>
+      </li>
+    </comps>
+    <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+    <designationCategory>Power</designationCategory>
+    <staticSunShadowHeight>0.5</staticSunShadowHeight>
+    <constructEffect>ConstructMetal</constructEffect>
+    <researchPrerequisites>
+      <li>SteamWorld_SteamPower</li>
+    </researchPrerequisites>
+    <constructionSkillPrerequisite>4</constructionSkillPrerequisite>
+  </ThingDef>
+  <!-- End of ThingDefs -->
+</Defs>

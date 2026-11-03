@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- ========== Tier II Advanced Tab Movement ========== -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ResearchProjectDef[defName = "GoJuiceProduction" or defName = "PenoxycylineProduction" or defName = "WakeUpProduction" or defName = "SolarPanels" or defName = "AirConditioning" or defName = "SmokepopBelt" or defName = "MicroelectronicsBasics" or defName = "TubeTelevision" or defName = "FlatscreenTelevision" or defName = "Autodoors" or defName = "NutrientPaste" or defName = "Hydroponics" or defName = "PackagedSurvivalMeal" or defName = "IEDs" or defName = "Mortars" or defName = "BlowbackOperation" or defName = "GasOperation" or defName = "PrecisionRifling"]</xpath>
+    <value>
+      <tab>AdvancedTech</tab>
+    </value>
+  </Operation>
+  <!-- ========== Tier III Advanced Tab Movement ========== -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ResearchProjectDef[defName = "Firefoam" or defName = "MoisturePump" or defName = "GeothermalPower" or defName = "TransportPod" or defName = "MultiAnalyzer" or defName = "LongRangeMineralScanner" or defName = "ToxGas" or defName = "FoamTurret" or defName = "Deathrest" or defName = "ToxifierGenerator" or defName = "BasicMechtech" or defName = "WastepackAtomizer" or defName = "FertilityProcedures" or defName = "StandardMechtech" or defName = "HighMechtech" or defName = "UltraMechtech" or defName = "Xenogermination" or defName = "BiofuelRefining"]</xpath>
+    <value>
+      <tab>AdvancedTech</tab>
+    </value>
+  </Operation>
+  <!-- ========== Tier IV Advanced Tab Movement ========== -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ResearchProjectDef[defName = "GroundPenetratingScanner" or defName = "DeepDrilling" or defName = "VitalsMonitor" or defName = "Fabrication" or defName = "Gunlink" or defName = "MultibarrelWeapons" or defName = "Cryptosleep" or defName = "PoweredArmor" or defName = "ShieldBelt" or defName = "ChargedShot"]</xpath>
+    <value>
+      <tab>AdvancedTech</tab>
+    </value>
+  </Operation>
+  <!-- ========== Spacer tech ========== -->
+  <Operation Class="PatchOperationRemove">
+    <xpath>/Defs/ResearchProjectDef[techLevel = "Spacer" or defName = "GunTurrets"]/tab</xpath>
+  </Operation>
+  <Operation Class="PatchOperationRemove">
+    <xpath>/Defs/ResearchProjectDef[requiredResearchBuilding = "HiTechResearchBench"]/tab</xpath>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ResearchProjectDef[techLevel = "Spacer" or requiredResearchBuilding = "HiTechResearchBench"]</xpath>
+    <value>
+      <tab>AdvancedTech</tab>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ResearchProjectDef[defName = "GunTurrets"]</xpath>
+    <value>
+      <tab>AdvancedTech</tab>
+    </value>
+  </Operation>
+</Patch>
